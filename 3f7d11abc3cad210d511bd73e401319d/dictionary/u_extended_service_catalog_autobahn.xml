@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="5102e123c30ed210d511bd73e40131b1" extends="sys_import_set_row" label="Extended Service Catalog Autobahn" max_length="40" name="u_extended_service_catalog_autobahn" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Status" label="Status" max_length="40" name="u_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Abrufmethode" label="Abrufmethode" max_length="297" name="u_abrufmethode" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Option IT-Servicekomponente" label="Option IT-Servicekomponente" max_length="49" name="u_option_it_servicekomponente" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Abrufberechtigte" label="Abrufberechtigte" max_length="259" name="u_abrufberechtigte" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=IT-Service Owner" label="IT-Service Owner" max_length="40" name="u_it_service_owner" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Start" label="Start" max_length="40" name="u_start" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=IT-Service Manager" label="IT-Service Manager" max_length="40" name="u_it_service_manager" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Bestandteil IT-Servicekomponente" label="Bestandteil IT-Servicekomponente" max_length="57" name="u_bestandteil__vicekomponente" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=IT-Servicegruppe" label="IT-Servicegruppe" max_length="40" name="u_it_servicegruppe" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Kosten -Typ" label="Kosten -Typ" max_length="40" name="u_kosten__typ" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Sichtbarkeit" label="Sichtbarkeit" max_length="40" name="u_sichtbarkeit" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=IT-Servicebereich" label="IT-Servicebereich" max_length="40" name="u_it_servicebereich" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Beschreibung" label="Beschreibung" max_length="895" name="u_beschreibung" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Kosten" label="Kosten" max_length="40" name="u_kosten" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SLA - Details" label="SLA - Details" max_length="40" name="u_sla___details" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Name" label="Name" max_length="49" name="u_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Vertrag - Details" label="Vertrag - Details" max_length="40" name="u_vertrag___details" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Vertrag" label="Vertrag" max_length="40" name="u_vertrag" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SLA - Klasse" label="SLA - Klasse" max_length="40" name="u_sla___klasse" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Service ID" label="Service ID" max_length="40" name="u_service_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Hersteller/ Dienstleister" label="Hersteller/ Dienstleister" max_length="40" name="u_hersteller__dienstleister" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=IT-Servicekategorie" label="IT-Servicekategorie" max_length="40" name="u_it_servicekategorie" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Ende" label="Ende" max_length="40" name="u_ende" type="string"/>
+    </element>
+</database>
