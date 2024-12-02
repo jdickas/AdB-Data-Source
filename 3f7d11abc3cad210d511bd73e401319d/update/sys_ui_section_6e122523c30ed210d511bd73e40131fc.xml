@@ -1,226 +1,226 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="" section_id="6e122523c30ed210d511bd73e40131fc" sys_domain="global" table="u_extended_service_catalog_autobahn" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.begin_split</element>
+            <element>u_name</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-11-29 14:51:46</sys_created_on>
-            <sys_id>fa126523c30ed210d511bd73e4013104</sys_id>
+            <sys_created_on>2024-12-02 08:52:30</sys_created_on>
+            <sys_id>9dac2b18c3921210d511bd73e4013133</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="u_extended_service_catalog_autobahn" sys_domain="global" view="Default view">6e122523c30ed210d511bd73e40131fc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-11-29 14:51:46</sys_updated_on>
-            <sys_user/>
-            <type>.begin_split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_name</element>
-            <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-11-29 14:51:46</sys_created_on>
-            <sys_id>7a126523c30ed210d511bd73e4013105</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="u_extended_service_catalog_autobahn" sys_domain="global" view="Default view">6e122523c30ed210d511bd73e40131fc</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-11-29 14:51:46</sys_updated_on>
+            <sys_updated_on>2024-12-02 08:52:30</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>2</position>
+            <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-11-29 14:51:46</sys_created_on>
-            <sys_id>fe126523c30ed210d511bd73e4013105</sys_id>
+            <sys_created_on>2024-12-02 08:52:30</sys_created_on>
+            <sys_id>59ac2b18c3921210d511bd73e4013134</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="u_extended_service_catalog_autobahn" sys_domain="global" view="Default view">6e122523c30ed210d511bd73e40131fc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-11-29 14:51:46</sys_updated_on>
+            <sys_updated_on>2024-12-02 08:52:30</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_status</element>
-            <position>3</position>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-11-29 14:51:46</sys_created_on>
-            <sys_id>76126523c30ed210d511bd73e4013106</sys_id>
+            <sys_created_on>2024-12-02 08:52:30</sys_created_on>
+            <sys_id>ddac2b18c3921210d511bd73e4013134</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="u_extended_service_catalog_autobahn" sys_domain="global" view="Default view">6e122523c30ed210d511bd73e40131fc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-11-29 14:51:46</sys_updated_on>
+            <sys_updated_on>2024-12-02 08:52:30</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>4</position>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-11-29 14:51:46</sys_created_on>
-            <sys_id>ba12e523c30ed210d511bd73e4013104</sys_id>
+            <sys_created_on>2024-12-02 08:52:30</sys_created_on>
+            <sys_id>55ac2b18c3921210d511bd73e4013135</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="u_extended_service_catalog_autobahn" sys_domain="global" view="Default view">6e122523c30ed210d511bd73e40131fc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-11-29 14:51:46</sys_updated_on>
+            <sys_updated_on>2024-12-02 08:52:30</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_abrufmethode</element>
-            <position>5</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-11-29 14:51:46</sys_created_on>
-            <sys_id>3212e523c30ed210d511bd73e4013105</sys_id>
+            <sys_created_on>2024-12-02 08:52:30</sys_created_on>
+            <sys_id>d9ac2b18c3921210d511bd73e4013135</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="u_extended_service_catalog_autobahn" sys_domain="global" view="Default view">6e122523c30ed210d511bd73e40131fc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-11-29 14:51:46</sys_updated_on>
+            <sys_updated_on>2024-12-02 08:52:30</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_option_it_servicekomponente</element>
-            <position>6</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-11-29 14:51:46</sys_created_on>
-            <sys_id>b612e523c30ed210d511bd73e4013105</sys_id>
+            <sys_created_on>2024-12-02 08:52:30</sys_created_on>
+            <sys_id>51ac2b18c3921210d511bd73e4013136</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="u_extended_service_catalog_autobahn" sys_domain="global" view="Default view">6e122523c30ed210d511bd73e40131fc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-11-29 14:51:46</sys_updated_on>
+            <sys_updated_on>2024-12-02 08:52:30</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_abrufberechtigte</element>
-            <position>7</position>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-11-29 14:51:46</sys_created_on>
-            <sys_id>3e12e523c30ed210d511bd73e4013105</sys_id>
+            <sys_created_on>2024-12-02 08:52:30</sys_created_on>
+            <sys_id>d5ac2b18c3921210d511bd73e4013136</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="u_extended_service_catalog_autobahn" sys_domain="global" view="Default view">6e122523c30ed210d511bd73e40131fc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-11-29 14:51:46</sys_updated_on>
+            <sys_updated_on>2024-12-02 08:52:30</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.begin_split</element>
-            <position>8</position>
+            <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-11-29 14:51:46</sys_created_on>
-            <sys_id>b212e523c30ed210d511bd73e4013106</sys_id>
+            <sys_created_on>2024-12-02 08:52:30</sys_created_on>
+            <sys_id>5dac2b18c3921210d511bd73e4013136</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="u_extended_service_catalog_autobahn" sys_domain="global" view="Default view">6e122523c30ed210d511bd73e40131fc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-11-29 14:51:46</sys_updated_on>
+            <sys_updated_on>2024-12-02 08:52:30</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_it_service_owner</element>
-            <position>9</position>
+            <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-11-29 14:51:46</sys_created_on>
-            <sys_id>3a12e523c30ed210d511bd73e4013106</sys_id>
+            <sys_created_on>2024-12-02 08:52:30</sys_created_on>
+            <sys_id>d1ac2b18c3921210d511bd73e4013137</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="u_extended_service_catalog_autobahn" sys_domain="global" view="Default view">6e122523c30ed210d511bd73e40131fc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-11-29 14:51:46</sys_updated_on>
+            <sys_updated_on>2024-12-02 08:52:30</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_start</element>
-            <position>10</position>
+            <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-11-29 14:51:46</sys_created_on>
-            <sys_id>be12e523c30ed210d511bd73e4013106</sys_id>
+            <sys_created_on>2024-12-02 08:52:30</sys_created_on>
+            <sys_id>59ac2b18c3921210d511bd73e4013137</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="u_extended_service_catalog_autobahn" sys_domain="global" view="Default view">6e122523c30ed210d511bd73e40131fc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-11-29 14:51:46</sys_updated_on>
+            <sys_updated_on>2024-12-02 08:52:30</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_it_service_manager</element>
-            <position>11</position>
+            <position>10</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-11-29 14:51:46</sys_created_on>
-            <sys_id>3612e523c30ed210d511bd73e4013107</sys_id>
+            <sys_created_on>2024-12-02 08:52:30</sys_created_on>
+            <sys_id>ddac2b18c3921210d511bd73e4013137</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="u_extended_service_catalog_autobahn" sys_domain="global" view="Default view">6e122523c30ed210d511bd73e40131fc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-11-29 14:51:46</sys_updated_on>
+            <sys_updated_on>2024-12-02 08:52:30</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_it_servicebereich</element>
-            <position>12</position>
+            <position>11</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-11-29 14:51:46</sys_created_on>
-            <sys_id>ba12e523c30ed210d511bd73e4013107</sys_id>
+            <sys_created_on>2024-12-02 08:52:30</sys_created_on>
+            <sys_id>55ac2b18c3921210d511bd73e4013138</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="u_extended_service_catalog_autobahn" sys_domain="global" view="Default view">6e122523c30ed210d511bd73e40131fc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-11-29 14:51:46</sys_updated_on>
+            <sys_updated_on>2024-12-02 08:52:30</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_kosten</element>
-            <position>13</position>
+            <position>12</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-11-29 14:51:46</sys_created_on>
-            <sys_id>3212e523c30ed210d511bd73e4013108</sys_id>
+            <sys_created_on>2024-12-02 08:52:30</sys_created_on>
+            <sys_id>d9ac2b18c3921210d511bd73e4013138</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="u_extended_service_catalog_autobahn" sys_domain="global" view="Default view">6e122523c30ed210d511bd73e40131fc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-11-29 14:51:46</sys_updated_on>
+            <sys_updated_on>2024-12-02 08:52:30</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_sla___details</element>
-            <position>14</position>
+            <position>13</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-11-29 14:51:46</sys_created_on>
-            <sys_id>b612e523c30ed210d511bd73e4013108</sys_id>
+            <sys_created_on>2024-12-02 08:52:30</sys_created_on>
+            <sys_id>51ac2b18c3921210d511bd73e4013139</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="u_extended_service_catalog_autobahn" sys_domain="global" view="Default view">6e122523c30ed210d511bd73e40131fc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-11-29 14:51:46</sys_updated_on>
+            <sys_updated_on>2024-12-02 08:52:30</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_vertrag___details</element>
-            <position>15</position>
+            <position>14</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-11-29 14:51:46</sys_created_on>
-            <sys_id>3e12e523c30ed210d511bd73e4013108</sys_id>
+            <sys_created_on>2024-12-02 08:52:30</sys_created_on>
+            <sys_id>d5ac2b18c3921210d511bd73e4013139</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="u_extended_service_catalog_autobahn" sys_domain="global" view="Default view">6e122523c30ed210d511bd73e40131fc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-11-29 14:51:46</sys_updated_on>
+            <sys_updated_on>2024-12-02 08:52:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_kritikalitaetsstufe</element>
+            <position>15</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-02 08:52:30</sys_created_on>
+            <sys_id>5dac2b18c3921210d511bd73e4013139</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_extended_service_catalog_autobahn" sys_domain="global" view="Default view">6e122523c30ed210d511bd73e40131fc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-02 08:52:30</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -228,13 +228,13 @@
             <element>.split</element>
             <position>16</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-11-29 14:51:46</sys_created_on>
-            <sys_id>b212e523c30ed210d511bd73e4013109</sys_id>
+            <sys_created_on>2024-12-02 08:52:30</sys_created_on>
+            <sys_id>d1ac2b18c3921210d511bd73e401313a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="u_extended_service_catalog_autobahn" sys_domain="global" view="Default view">6e122523c30ed210d511bd73e40131fc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-11-29 14:51:46</sys_updated_on>
+            <sys_updated_on>2024-12-02 08:52:30</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -242,13 +242,13 @@
             <element>u_vertrag</element>
             <position>17</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-11-29 14:51:46</sys_created_on>
-            <sys_id>3a12e523c30ed210d511bd73e4013109</sys_id>
+            <sys_created_on>2024-12-02 08:52:30</sys_created_on>
+            <sys_id>59ac2b18c3921210d511bd73e401313a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="u_extended_service_catalog_autobahn" sys_domain="global" view="Default view">6e122523c30ed210d511bd73e40131fc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-11-29 14:51:46</sys_updated_on>
+            <sys_updated_on>2024-12-02 08:52:30</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -256,13 +256,13 @@
             <element>u_sla___klasse</element>
             <position>18</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-11-29 14:51:46</sys_created_on>
-            <sys_id>be12e523c30ed210d511bd73e4013109</sys_id>
+            <sys_created_on>2024-12-02 08:52:30</sys_created_on>
+            <sys_id>ddac2b18c3921210d511bd73e401313a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="u_extended_service_catalog_autobahn" sys_domain="global" view="Default view">6e122523c30ed210d511bd73e40131fc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-11-29 14:51:46</sys_updated_on>
+            <sys_updated_on>2024-12-02 08:52:30</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -270,13 +270,13 @@
             <element>u_service_id</element>
             <position>19</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-11-29 14:51:46</sys_created_on>
-            <sys_id>3612e523c30ed210d511bd73e401310a</sys_id>
+            <sys_created_on>2024-12-02 08:52:30</sys_created_on>
+            <sys_id>55ac2b18c3921210d511bd73e401313b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="u_extended_service_catalog_autobahn" sys_domain="global" view="Default view">6e122523c30ed210d511bd73e40131fc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-11-29 14:51:46</sys_updated_on>
+            <sys_updated_on>2024-12-02 08:52:30</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -284,13 +284,13 @@
             <element>u_bestandteil__vicekomponente</element>
             <position>20</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-11-29 14:51:46</sys_created_on>
-            <sys_id>ba12e523c30ed210d511bd73e401310a</sys_id>
+            <sys_created_on>2024-12-02 08:52:30</sys_created_on>
+            <sys_id>d9ac2b18c3921210d511bd73e401313b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="u_extended_service_catalog_autobahn" sys_domain="global" view="Default view">6e122523c30ed210d511bd73e40131fc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-11-29 14:51:46</sys_updated_on>
+            <sys_updated_on>2024-12-02 08:52:30</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -298,13 +298,13 @@
             <element>u_it_servicegruppe</element>
             <position>21</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-11-29 14:51:46</sys_created_on>
-            <sys_id>3212e523c30ed210d511bd73e401310b</sys_id>
+            <sys_created_on>2024-12-02 08:52:30</sys_created_on>
+            <sys_id>51ac2b18c3921210d511bd73e401313c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="u_extended_service_catalog_autobahn" sys_domain="global" view="Default view">6e122523c30ed210d511bd73e40131fc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-11-29 14:51:46</sys_updated_on>
+            <sys_updated_on>2024-12-02 08:52:30</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -312,13 +312,13 @@
             <element>u_kosten__typ</element>
             <position>22</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-11-29 14:51:46</sys_created_on>
-            <sys_id>b612e523c30ed210d511bd73e401310b</sys_id>
+            <sys_created_on>2024-12-02 08:52:30</sys_created_on>
+            <sys_id>d5ac2b18c3921210d511bd73e401313c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="u_extended_service_catalog_autobahn" sys_domain="global" view="Default view">6e122523c30ed210d511bd73e40131fc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-11-29 14:51:46</sys_updated_on>
+            <sys_updated_on>2024-12-02 08:52:30</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -326,13 +326,13 @@
             <element>u_sichtbarkeit</element>
             <position>23</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-11-29 14:51:46</sys_created_on>
-            <sys_id>3e12e523c30ed210d511bd73e401310b</sys_id>
+            <sys_created_on>2024-12-02 08:52:30</sys_created_on>
+            <sys_id>5dac2b18c3921210d511bd73e401313c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="u_extended_service_catalog_autobahn" sys_domain="global" view="Default view">6e122523c30ed210d511bd73e40131fc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-11-29 14:51:46</sys_updated_on>
+            <sys_updated_on>2024-12-02 08:52:30</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -340,13 +340,13 @@
             <element>.end_split</element>
             <position>24</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-11-29 14:51:46</sys_created_on>
-            <sys_id>b212e523c30ed210d511bd73e401310c</sys_id>
+            <sys_created_on>2024-12-02 08:52:30</sys_created_on>
+            <sys_id>d1ac2b18c3921210d511bd73e401313d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="u_extended_service_catalog_autobahn" sys_domain="global" view="Default view">6e122523c30ed210d511bd73e40131fc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-11-29 14:51:46</sys_updated_on>
+            <sys_updated_on>2024-12-02 08:52:30</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
@@ -354,99 +354,99 @@
             <element>u_beschreibung</element>
             <position>25</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-11-29 14:51:46</sys_created_on>
-            <sys_id>3a12e523c30ed210d511bd73e401310c</sys_id>
+            <sys_created_on>2024-12-02 08:52:30</sys_created_on>
+            <sys_id>59ac2b18c3921210d511bd73e401313d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="u_extended_service_catalog_autobahn" sys_domain="global" view="Default view">6e122523c30ed210d511bd73e40131fc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-11-29 14:51:46</sys_updated_on>
+            <sys_updated_on>2024-12-02 08:52:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_additional_informationen</element>
+            <position>26</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-02 08:52:30</sys_created_on>
+            <sys_id>ddac2b18c3921210d511bd73e401313d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_extended_service_catalog_autobahn" sys_domain="global" view="Default view">6e122523c30ed210d511bd73e40131fc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-02 08:52:30</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.begin_split</element>
-            <position>26</position>
+            <position>27</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-11-29 14:51:46</sys_created_on>
-            <sys_id>be12e523c30ed210d511bd73e401310c</sys_id>
+            <sys_created_on>2024-12-02 08:52:30</sys_created_on>
+            <sys_id>55ac2b18c3921210d511bd73e401313e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="u_extended_service_catalog_autobahn" sys_domain="global" view="Default view">6e122523c30ed210d511bd73e40131fc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-11-29 14:51:46</sys_updated_on>
+            <sys_updated_on>2024-12-02 08:52:30</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_hersteller__dienstleister</element>
-            <position>27</position>
+            <position>28</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-11-29 14:51:46</sys_created_on>
-            <sys_id>3612e523c30ed210d511bd73e401310d</sys_id>
+            <sys_created_on>2024-12-02 08:52:30</sys_created_on>
+            <sys_id>d9ac2b18c3921210d511bd73e401313e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="u_extended_service_catalog_autobahn" sys_domain="global" view="Default view">6e122523c30ed210d511bd73e40131fc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-11-29 14:51:46</sys_updated_on>
+            <sys_updated_on>2024-12-02 08:52:30</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_it_servicekategorie</element>
-            <position>28</position>
+            <position>29</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-11-29 14:51:46</sys_created_on>
-            <sys_id>ba12e523c30ed210d511bd73e401310d</sys_id>
+            <sys_created_on>2024-12-02 08:52:30</sys_created_on>
+            <sys_id>51ac2b18c3921210d511bd73e401313f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="u_extended_service_catalog_autobahn" sys_domain="global" view="Default view">6e122523c30ed210d511bd73e40131fc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-11-29 14:51:46</sys_updated_on>
+            <sys_updated_on>2024-12-02 08:52:30</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>29</position>
+            <position>30</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-11-29 14:51:46</sys_created_on>
-            <sys_id>3212e523c30ed210d511bd73e401310e</sys_id>
+            <sys_created_on>2024-12-02 08:52:30</sys_created_on>
+            <sys_id>d5ac2b18c3921210d511bd73e401313f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="u_extended_service_catalog_autobahn" sys_domain="global" view="Default view">6e122523c30ed210d511bd73e40131fc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-11-29 14:51:46</sys_updated_on>
+            <sys_updated_on>2024-12-02 08:52:30</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_ende</element>
-            <position>30</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-11-29 14:51:46</sys_created_on>
-            <sys_id>b612e523c30ed210d511bd73e401310e</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="u_extended_service_catalog_autobahn" sys_domain="global" view="Default view">6e122523c30ed210d511bd73e40131fc</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-11-29 14:51:46</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.end_split</element>
             <position>31</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-11-29 14:51:46</sys_created_on>
-            <sys_id>3e12e523c30ed210d511bd73e401310e</sys_id>
+            <sys_created_on>2024-12-02 08:52:30</sys_created_on>
+            <sys_id>5dac2b18c3921210d511bd73e401313f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="u_extended_service_catalog_autobahn" sys_domain="global" view="Default view">6e122523c30ed210d511bd73e40131fc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-11-29 14:51:46</sys_updated_on>
+            <sys_updated_on>2024-12-02 08:52:30</sys_updated_on>
             <sys_user/>
-            <type>.end_split</type>
+            <type/>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>

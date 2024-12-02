@@ -24,6 +24,7 @@
         gs.info('Kein übereinstimmender Datensatz gefunden. Datensatz wird nicht angelegt.');
         ignore = true; // Dieser Parameter verhindert das Anlegen des Datensatzes
 
+		/*
         // Prüfung, ob eine Übereinstimmung in der Zieltabelle (target) nur aufgrund des Namens vorhanden ist
         var existingNameRecord = new GlideRecord('cmdb_ci_service'); // Ersetze 'target_table' durch den tatsächlichen Tabellenname
         existingNameRecord.addQuery('name', feld1);
@@ -36,8 +37,9 @@
             //ignore = false; // Dieser Parameter verhindert das Anlegen des Datensatzes
         } else {
             gs.info('Kein {Name} übereinstimmender Datensatz gefunden. Datensatz wird nicht angelegt.' + feld1);	
-			ignore = false;		
+			ignore = false;		// für den ersten Import
 		}
+		*/
 
     }
 
@@ -48,14 +50,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-11-29 15:30:38</sys_created_on>
         <sys_id>09fa252fc30ed210d511bd73e4013140</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>onBefore</sys_name>
         <sys_package display_value="AdB Data Source" source="3f7d11abc3cad210d511bd73e401319d">3f7d11abc3cad210d511bd73e401319d</sys_package>
         <sys_policy/>
         <sys_scope display_value="AdB Data Source">3f7d11abc3cad210d511bd73e401319d</sys_scope>
         <sys_update_name>sys_transform_script_09fa252fc30ed210d511bd73e4013140</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-11-29 15:42:53</sys_updated_on>
+        <sys_updated_on>2024-12-02 08:11:14</sys_updated_on>
         <when>onBefore</when>
     </sys_transform_script>
     <sys_es_latest_script action="INSERT_OR_UPDATE">

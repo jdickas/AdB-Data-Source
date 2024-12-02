@@ -20,8 +20,12 @@
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Vertrag" label="Vertrag" max_length="40" name="u_vertrag" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=SLA - Klasse" label="SLA - Klasse" max_length="40" name="u_sla___klasse" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Service ID" label="Service ID" max_length="40" name="u_service_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Kritikalitaetsstufe" label="Kritikalitaetsstufe" max_length="40" name="u_kritikalitaetsstufe" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Beschraenkungen" label="Beschraenkungen" max_length="40" name="u_beschraenkungen" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Nicht oeffentliche Informationen" label="Nicht oeffentliche Informationen" max_length="40" name="u_nicht_oeffen__informationen" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Hersteller/ Dienstleister" label="Hersteller/ Dienstleister" max_length="40" name="u_hersteller__dienstleister" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=IT-Servicekategorie" label="IT-Servicekategorie" max_length="40" name="u_it_servicekategorie" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Ende" label="Ende" max_length="40" name="u_ende" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Additional Informationen" label="Additional Informationen" max_length="40" name="u_additional_informationen" type="string"/>
     </element>
 </database>

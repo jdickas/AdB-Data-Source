@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element audit="true" db_object_id="3aedc9720d6112104f349799ccc9731b" extends="cmdb_ci" label="Service" max_length="40" name="cmdb_ci_service" type="collection">
+        <element label="Abrufmethode" max_length="65536" name="u_abrufmethode" type="html"/>
         <element label="Data Source" max_length="40" name="u_source" type="string"/>
+        <element label="Additional Information" max_length="4000" name="u_additional_information" type="string"/>
     </element>
 </database>
