@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_entry">
+    <sys_transform_entry action="INSERT_OR_UPDATE">
+        <choice_action>create</choice_action>
+        <coalesce>false</coalesce>
+        <coalesce_case_sensitive>false</coalesce_case_sensitive>
+        <coalesce_empty_fields>false</coalesce_empty_fields>
+        <date_format>yyyy-MM-dd HH:mm:ss</date_format>
+        <map display_value="LDAP Autobahn User All Reg Import">57d4dd39c31e5210d511bd73e4013140</map>
+        <reference_value_field/>
+        <source_field>[Script]</source_field>
+        <source_script><![CDATA[answer = (function transformEntry(source) {
+
+    // Add your code here
+    var sourceVal = source.u_objectsid;
+	//gs.info('[LDAP Import]JD Start: ' +  sourceVal);
+
+    //var source = "AQUAAAAAAAUVAAAAWUwLi17c7L1aBsrNrgQAAA==";
+    var hexaArrayString = base64ToHexa(sourceVal);
+    //Print out -> 01 05 00 00 00 00 00 05 15 00 00 00 59 4C 0B 8B 5E DC EC BD 5A 06 CA CD AE 04 00 00
+    //gs.info('[LDAP Import]JD' + hexaArrayString.replace(/,/g, " "));
+
+    var SIDArray = hexaArrayString.split(",");
+    var SID = hexaArrayToSID(SIDArray);
+    //Print out -> S-1-5-21-2332773465-3186416734-3452569178-1198
+    //gs.info('[LDAP Import]JD' + SID);
+
+    function base64ToHexa(str) {
+        var decoded = GlideStringUtil.base64DecodeAsBytes(str);
+        var n = decoded.length;
+        if (n < 16) {
+            return '';
+        }
+        var hexaArray = [];
+        for (var i = 0; i < n; i++) {
+            var hexaStr = decimal2Hexadecimal(decoded[i]);
+            hexaArray.push(hexaStr);
+        }
+        return hexaArray.toString();
+    }
+
+    function decimal2Hexadecimal(decimal) {
+        var hexaStr = decToHex(decimal);
+
+        if (hexaStr.length == 3) {
+            hexaStr = '0' + hexaStr.charAt(2);
+        } else if (hexaStr.length == 4) { // e.g. 0X42->42 or 0x5C->5C
+            hexaStr = hexaStr.charAt(2) + hexaStr.charAt(3);
+        } else {
+            hexaStr = hexaStr.charAt(hexaStr.length - 2) + hexaStr.charAt(hexaStr.length - 1);
+        }
+        return hexaStr + '';
+    }
+
+    //Thanks to the author at
+    //http://www.selfadsi.org/deep-inside/microsoft-sid-attributes.htm
+    function hexaArrayToSID(arr) {
+        var revision = arr[0].toLowerCase();
+        var subIDCount = arr[1].toLowerCase();
+        var identifierAuthority = hexaToDecimal(arr.slice(2, 8).join('').toLowerCase()); //Not Required for NT, always 5
+        var subID1 = hexaToDecimal(arr.slice(8, 11).reverse().join('').toLowerCase());
+        var subID2 = hexaToDecimal(arr.slice(12, 16).reverse().join('').toLowerCase());
+        var subID3 = hexaToDecimal(arr.slice(16, 20).reverse().join('').toLowerCase());
+        var subID4 = hexaToDecimal(arr.slice(20, 24).reverse().join('').toLowerCase());
+        //Relative ID - RID
+        var subID5 = hexaToDecimal(arr.slice(24, 28).reverse().join('').toLowerCase());
+
+        return "S-" + parseInt(revision) + "-" + parseInt(subIDCount) + "-" + subID1 + "-" + subID2 + "-" + subID3 + "-" + subID4 + "-" + subID5;
+    }
+
+
+    //Thanks to the author at
+    //https://stackoverflow.com/questions/57803/how-to-convert-decimal-to-hexadecimal-in-javascript
+    function decToHex(decimal) { // Data (decimal)
+        length = -1; // Base string length
+        string = ''; // Source 'string'
+
+        characters = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F']; // character array
+
+        do { // Grab each nibble in reverse order because JavaScript has no unsigned left shift
+            string += characters[decimal & 0xF]; // Mask byte, get that character
+            ++length; // Increment to length of string
+
+        } while (decimal >>>= 4); // For next character shift right 4 bits, or break on 0
+
+        decimal += 'x'; // Convert that 0 into a hex prefix string -> '0x'
+
+        do {
+            decimal += string[length];
+        } while (length--); // Flip string forwards, with the prefixed '0x'
+
+        return (decimal); // return (hexadecimal);
+    }
+
+    function hexaToDecimal(_hexaString) {
+        return parseInt(_hexaString, 16);
+    }
+
+
+    return SID; // return the value to be put into the target field
+
+})(source);]]></source_script>
+        <source_table>u_autobahn_ldap_import_users</source_table>
+        <sys_class_name>sys_transform_entry</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-06 14:00:14</sys_created_on>
+        <sys_id>45591975c35e5210d511bd73e401316e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>[Script]</sys_name>
+        <sys_package display_value="AdB Data Source" source="3f7d11abc3cad210d511bd73e401319d">3f7d11abc3cad210d511bd73e401319d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AdB Data Source">3f7d11abc3cad210d511bd73e401319d</sys_scope>
+        <sys_update_name>sys_transform_entry_45591975c35e5210d511bd73e401316e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-06 14:00:14</sys_updated_on>
+        <target_field>u_external_key</target_field>
+        <target_table>sys_user</target_table>
+        <use_source_script>true</use_source_script>
+    </sys_transform_entry>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>45591975c35e5210d511bd73e401316e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-06 14:00:14</sys_created_on>
+        <sys_id>84799975c35e5210d511bd73e40131cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-06 14:00:14</sys_updated_on>
+        <table>sys_transform_entry</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

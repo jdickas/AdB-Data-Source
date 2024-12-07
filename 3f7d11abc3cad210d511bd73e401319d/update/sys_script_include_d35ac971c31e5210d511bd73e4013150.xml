@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>global.AutobahnLDAPImportConstants</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>AutobahnLDAPImportConstants</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var AutobahnLDAPImportConstants =(function(){
+    //Parent-Locations:
+	var _MAIN_LOCATION_NLZENTRALE = '13b7ee63c3e846902c03deee05013117';
+	var _MAIN_LOCATION_NLWESTFALEN = 'cab7ee63c3e846902c03deee05013114';
+	var _MAIN_LOCATION_NLWEST = '93a72e63c3e846902c03deee050131b1';
+	var _MAIN_LOCATION_NLSUEDWEST = '0ea76a63c3e846902c03deee0501318a';
+	var _MAIN_LOCATION_NLRHEINLAND = 'b8a76623c3e846902c03deee050131c0';
+	var _MAIN_LOCATION_NLNORDWEST = 'bd972a63c3e846902c03deee05013142';
+	var _MAIN_LOCATION_NLNORDOST = '68972a63c3e846902c03deee05013140';
+	var _MAIN_LOCATION_NLNORD = 'c7872e63c3e846902c03deee050131a6';
+	var _MAIN_LOCATION_NLBAYERNSUED = '09876a63c3e846902c03deee05013130';
+	var _MAIN_LOCATION_NLBAYERNNORD = '5e776a23c3e846902c03deee050131d6';
+	var _MAIN_LOCATION_NLOST = '168e2c3cc3c679504de0d0cf050131a2';
+
+	var _ML_MAPSTR_NLZENTRALE = 'Zentrale';
+	var _ML_MAPSTR_NLWESTFALEN = 'Westfalen';
+	var _ML_MAPSTR_NLWEST = 'West';
+	var _ML_MAPSTR_NLSUEDWEST = 'Südwest';
+	var _ML_MAPSTR_NLRHEINLAND = 'Rheinland';
+	var _ML_MAPSTR_NLNORDWEST = 'Nordwest';
+	var _ML_MAPSTR_NLNORDOST = 'Nordost';
+	var _ML_MAPSTR_NLNORD = 'Nord';
+	var _ML_MAPSTR_NLBAYERNSUED = 'Südbayern';
+	var _ML_MAPSTR_NLBAYERNNORD = 'Nordbayern';
+	var _ML_MAPSTR_NLOST = 'Ost';	
+
+	return {
+		MAIN_LOCATION_NLZENTRALE: function() {return _MAIN_LOCATION_NLZENTRALE;},
+		MAIN_LOCATION_NLWESTFALEN: function() {return _MAIN_LOCATION_NLWESTFALEN ;},
+		MAIN_LOCATION_NLWEST: function() {return _MAIN_LOCATION_NLWEST ;},
+		MAIN_LOCATION_NLSUEDWEST: function() {return _MAIN_LOCATION_NLSUEDWEST ;},
+		MAIN_LOCATION_NLRHEINLAND: function() {return _MAIN_LOCATION_NLRHEINLAND ;},
+		MAIN_LOCATION_NLNORDWEST: function() {return _MAIN_LOCATION_NLNORDWEST ;},
+		MAIN_LOCATION_NLNORDOST: function() {return _MAIN_LOCATION_NLNORDOST ;},
+		MAIN_LOCATION_NLNORD: function() {return _MAIN_LOCATION_NLNORD ;},
+		MAIN_LOCATION_NLBAYERNSUED: function() {return _MAIN_LOCATION_NLBAYERNSUED ;},
+		MAIN_LOCATION_NLBAYERNNORD: function() {return _MAIN_LOCATION_NLBAYERNNORD ;},
+		MAIN_LOCATION_NLOST: function() {return _MAIN_LOCATION_NLOST ;},	
+		ML_MAPSTR_NLZENTRALE: function() {return _ML_MAPSTR_NLZENTRALE;},
+		ML_MAPSTR_NLWESTFALEN: function() {return _ML_MAPSTR_NLWESTFALEN;},
+		ML_MAPSTR_NLWEST: function() {return _ML_MAPSTR_NLWEST;},
+		ML_MAPSTR_NLSUEDWEST: function() {return _ML_MAPSTR_NLSUEDWEST;},
+		ML_MAPSTR_NLRHEINLAND: function() {return _ML_MAPSTR_NLRHEINLAND;},
+		ML_MAPSTR_NLNORDWEST: function() {return _ML_MAPSTR_NLNORDWEST;},
+		ML_MAPSTR_NLNORDOST: function() {return _ML_MAPSTR_NLNORDOST;},
+		ML_MAPSTR_NLNORD: function() {return _ML_MAPSTR_NLNORD;},
+		ML_MAPSTR_NLBAYERNSUED: function() {return _ML_MAPSTR_NLBAYERNSUED ;},
+		ML_MAPSTR_NLBAYERNNORD: function() {return _ML_MAPSTR_NLBAYERNNORD;},
+		ML_MAPSTR_NLOST: function() {return _ML_MAPSTR_NLOST;},			
+
+	};
+    
+})();]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-06 12:54:47</sys_created_on>
+        <sys_id>d35ac971c31e5210d511bd73e4013150</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AutobahnLDAPImportConstants</sys_name>
+        <sys_package display_value="AdB Data Source" source="3f7d11abc3cad210d511bd73e401319d">3f7d11abc3cad210d511bd73e401319d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AdB Data Source">3f7d11abc3cad210d511bd73e401319d</sys_scope>
+        <sys_update_name>sys_script_include_d35ac971c31e5210d511bd73e4013150</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-06 12:54:47</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>d35ac971c31e5210d511bd73e4013150</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-06 12:54:46</sys_created_on>
+        <sys_id>417ac971c31e5210d511bd73e4013155</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-06 12:54:46</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

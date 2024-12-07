@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ldap_ou_config">
+    <ldap_ou_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <default_values/>
+        <filter>(&amp;(adbUserType=primary)(!(userAccountControl=514)))</filter>
+        <map/>
+        <name>AutobahnLocations</name>
+        <ou>OU=Regular,OU=Users,OU=PROD,OU=Autobahn</ou>
+        <query_field>sAMAccountName</query_field>
+        <server display_value="AD_PROD">6e7c78fdc39a5210d511bd73e4013177</server>
+        <sys_class_name>ldap_ou_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-06 12:02:42</sys_created_on>
+        <sys_id>d45e7471c3da5210d511bd73e40131be</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>AutobahnLocations</sys_name>
+        <sys_package display_value="AdB Data Source" source="3f7d11abc3cad210d511bd73e401319d">3f7d11abc3cad210d511bd73e401319d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AdB Data Source">3f7d11abc3cad210d511bd73e401319d</sys_scope>
+        <sys_update_name>ldap_ou_config_d45e7471c3da5210d511bd73e40131be</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-06 13:21:28</sys_updated_on>
+        <table>cmn_location</table>
+    </ldap_ou_config>
+</record_update>

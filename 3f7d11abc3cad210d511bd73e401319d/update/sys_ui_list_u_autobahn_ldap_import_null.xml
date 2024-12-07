@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="u_autobahn_ldap_import" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_import_row</element>
+            <list_id display_value="u_autobahn_ldap_import" element="NULL" name="u_autobahn_ldap_import" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">47a5c5b9c3da5210d511bd73e40131ee</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-06 12:33:53</sys_created_on>
+            <sys_id>c3a5c5b9c3da5210d511bd73e40131ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-06 12:33:53</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_import_set</element>
+            <list_id display_value="u_autobahn_ldap_import" element="NULL" name="u_autobahn_ldap_import" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">47a5c5b9c3da5210d511bd73e40131ee</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-06 12:33:53</sys_created_on>
+            <sys_id>4ba5c5b9c3da5210d511bd73e40131ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-06 12:33:53</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_import_state</element>
+            <list_id display_value="u_autobahn_ldap_import" element="NULL" name="u_autobahn_ldap_import" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">47a5c5b9c3da5210d511bd73e40131ee</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-06 12:33:53</sys_created_on>
+            <sys_id>cba5c5b9c3da5210d511bd73e40131ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-06 12:33:53</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_target_table</element>
+            <list_id display_value="u_autobahn_ldap_import" element="NULL" name="u_autobahn_ldap_import" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">47a5c5b9c3da5210d511bd73e40131ee</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-06 12:33:53</sys_created_on>
+            <sys_id>4fa5c5b9c3da5210d511bd73e40131ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-06 12:33:53</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_target_sys_id</element>
+            <list_id display_value="u_autobahn_ldap_import" element="NULL" name="u_autobahn_ldap_import" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">47a5c5b9c3da5210d511bd73e40131ee</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-06 12:33:53</sys_created_on>
+            <sys_id>cfa5c5b9c3da5210d511bd73e40131ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-06 12:33:53</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_row_error</element>
+            <list_id display_value="u_autobahn_ldap_import" element="NULL" name="u_autobahn_ldap_import" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">47a5c5b9c3da5210d511bd73e40131ee</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-06 12:33:53</sys_created_on>
+            <sys_id>43a5c5b9c3da5210d511bd73e40131f0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-06 12:33:53</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>u_autobahn_ldap_import</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-06 12:33:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>47a5c5b9c3da5210d511bd73e40131ee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_autobahn_ldap_import</sys_name>
+            <sys_package display_value="AdB Data Source" source="3f7d11abc3cad210d511bd73e401319d">3f7d11abc3cad210d511bd73e401319d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="AdB Data Source">3f7d11abc3cad210d511bd73e401319d</sys_scope>
+            <sys_update_name>sys_ui_list_u_autobahn_ldap_import_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-06 12:33:53</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>
