@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="DELETE">
+        <access>public</access>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <caller_access/>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>false</create_access>
+        <create_access_controls>true</create_access_controls>
+        <delete_access>false</delete_access>
+        <is_extendable>false</is_extendable>
+        <label>AD Managed Folders</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>u_cmdb_ci_managed_folders</name>
+        <number_ref/>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class display_value="Configuration Item" name="cmdb_ci">22cdc1320d6112104f349799ccc9737a</super_class>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 14:49:18</sys_created_on>
+        <sys_id>2e3101bec356d210d511bd73e4013196</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AD Managed Folders</sys_name>
+        <sys_package display_value="AdB Data Source" source="3f7d11abc3cad210d511bd73e401319d">3f7d11abc3cad210d511bd73e401319d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AdB Data Source">3f7d11abc3cad210d511bd73e401319d</sys_scope>
+        <sys_update_name>sys_db_object_2e3101bec356d210d511bd73e4013196</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 14:49:18</sys_updated_on>
+        <update_access>false</update_access>
+        <user_role display_value="admin" name="admin">2831a114c611228501d4ea6c309d626d</user_role>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AdB Data Source">3f7d11abc3cad210d511bd73e401319d</application>
+        <file_path/>
+        <instance_id>a1f2b85cdbfa711039639027c59619b6</instance_id>
+        <instance_name>dev223868</instance_name>
+        <name>sys_db_object_2e3101bec356d210d511bd73e4013196</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>true</create_access_controls><delete_access>false</delete_access><is_extendable>false</is_extendable><label>AD Managed Folders</label><live_feed_enabled>false</live_feed_enabled><name>u_cmdb_ci_managed_folders</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class display_value="Configuration Item" name="cmdb_ci">22cdc1320d6112104f349799ccc9737a</super_class><sys_class_name>sys_db_object</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-09 14:49:18</sys_created_on><sys_id>2e3101bec356d210d511bd73e4013196</sys_id><sys_mod_count>0</sys_mod_count><sys_name>AD Managed Folders</sys_name><sys_package display_value="AdB Data Source" source="3f7d11abc3cad210d511bd73e401319d">3f7d11abc3cad210d511bd73e401319d</sys_package><sys_policy/><sys_scope display_value="AdB Data Source">3f7d11abc3cad210d511bd73e401319d</sys_scope><sys_update_name>sys_db_object_2e3101bec356d210d511bd73e4013196</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-09 14:49:18</sys_updated_on><update_access>false</update_access><user_role display_value="admin" name="admin">2831a114c611228501d4ea6c309d626d</user_role><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+        <payload_hash>-775949612</payload_hash>
+        <record_name>AD Managed Folders</record_name>
+        <reverted_from/>
+        <source>67d6c63ec3861210d511bd73e4013139</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 14:49:22</sys_created_on>
+        <sys_id>787145bec356d210d511bd73e40131db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>193abe575c90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 14:49:22</sys_updated_on>
+        <type>Table</type>
+        <update_guid>7c7145beb756d21089e6a90e143770da</update_guid>
+        <update_guid_history>7c7145beb756d21089e6a90e143770da:-775949612</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 15:25:41</sys_created_on>
+        <sys_db_object display_value="" name="sys_db_object">sys_db_object</sys_db_object>
+        <sys_id>34c0c39e194d49da9778baf34a63b069</sys_id>
+        <sys_metadata>2e3101bec356d210d511bd73e4013196</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AD Managed Folders</sys_name>
+        <sys_package display_value="AdB Data Source" source="3f7d11abc3cad210d511bd73e401319d">3f7d11abc3cad210d511bd73e401319d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="AdB Data Source">3f7d11abc3cad210d511bd73e401319d</sys_scope>
+        <sys_scope_delete display_value="">147bf69f08ce462681d503e1ae23e6d1</sys_scope_delete>
+        <sys_update_name>sys_db_object_2e3101bec356d210d511bd73e4013196</sys_update_name>
+        <sys_update_version display_value="sys_db_object_2e3101bec356d210d511bd73e4013196">787145bec356d210d511bd73e40131db</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 15:25:41</sys_updated_on>
+    </sys_metadata_delete>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="AdB Data Source">3f7d11abc3cad210d511bd73e401319d</claim_owner_scope>
+        <claim_timestamp>193ac3546650000001</claim_timestamp>
+        <metadata_update_name>sys_db_object_2e3101bec356d210d511bd73e4013196</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>AdB Data Source</previous_claim_name>
+        <previous_claim_scope>3f7d11abc3cad210d511bd73e401319d</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 16:16:32</sys_created_on>
+        <sys_id>7565d57ac3d6d210d511bd73e4013129</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 16:16:32</sys_updated_on>
+    </sys_claim>
+</record_update>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <applies_to/>
+        <condition/>
+        <decision_type>allow</decision_type>
+        <description>Default access control on u_cmdb_ci_managed_folders</description>
+        <local_or_existing>Local</local_or_existing>
+        <name>u_cmdb_ci_managed_folders</name>
+        <operation display_value="delete">delete</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 14:49:19</sys_created_on>
+        <sys_id>507145bec356d210d511bd73e401310c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_cmdb_ci_managed_folders</sys_name>
+        <sys_package display_value="AdB Data Source" source="3f7d11abc3cad210d511bd73e401319d">3f7d11abc3cad210d511bd73e401319d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AdB Data Source">3f7d11abc3cad210d511bd73e401319d</sys_scope>
+        <sys_update_name>sys_security_acl_507145bec356d210d511bd73e401310c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 14:49:19</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AdB Data Source">3f7d11abc3cad210d511bd73e401319d</application>
+        <file_path/>
+        <instance_id>a1f2b85cdbfa711039639027c59619b6</instance_id>
+        <instance_name>dev223868</instance_name>
+        <name>sys_security_acl_507145bec356d210d511bd73e401310c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><decision_type>allow</decision_type><description>Default access control on u_cmdb_ci_managed_folders</description><local_or_existing>Local</local_or_existing><name>u_cmdb_ci_managed_folders</name><operation display_value="delete">delete</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-09 14:49:19</sys_created_on><sys_id>507145bec356d210d511bd73e401310c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_cmdb_ci_managed_folders</sys_name><sys_package display_value="AdB Data Source" source="3f7d11abc3cad210d511bd73e401319d">3f7d11abc3cad210d511bd73e401319d</sys_package><sys_policy/><sys_scope display_value="AdB Data Source">3f7d11abc3cad210d511bd73e401319d</sys_scope><sys_update_name>sys_security_acl_507145bec356d210d511bd73e401310c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-09 14:49:19</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>115432660</payload_hash>
+        <record_name>u_cmdb_ci_managed_folders</record_name>
+        <reverted_from/>
+        <source>67d6c63ec3861210d511bd73e4013139</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 14:49:19</sys_created_on>
+        <sys_id>107145bec356d210d511bd73e401310f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>193abe56cef0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 14:49:19</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>147145be7156d210536b136fdf1c280e</update_guid>
+        <update_guid_history>147145be7156d210536b136fdf1c280e:115432660</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 15:25:42</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>041e2d553c9f400c8062306e395b6290</sys_id>
+        <sys_metadata>507145bec356d210d511bd73e401310c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_cmdb_ci_managed_folders</sys_name>
+        <sys_package display_value="AdB Data Source" source="3f7d11abc3cad210d511bd73e401319d">3f7d11abc3cad210d511bd73e401319d</sys_package>
+        <sys_parent display_value="">187145bec356d210d511bd73e401311f</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="AdB Data Source">3f7d11abc3cad210d511bd73e401319d</sys_scope>
+        <sys_scope_delete display_value="">147bf69f08ce462681d503e1ae23e6d1</sys_scope_delete>
+        <sys_update_name>sys_security_acl_507145bec356d210d511bd73e401310c</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_507145bec356d210d511bd73e401310c">107145bec356d210d511bd73e401310f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 15:25:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

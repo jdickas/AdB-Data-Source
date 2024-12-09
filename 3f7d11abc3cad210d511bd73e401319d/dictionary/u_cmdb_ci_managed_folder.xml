@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="5fd949b6c396d210d511bd73e4013149" extends="cmdb_ci" label="AD Managed Folders" max_length="40" name="u_cmdb_ci_managed_folder" type="collection">
+        <element choice="1" label="Customer Specific Data 1" max_length="400" name="u_customer_specific_data_1" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="NL-01_N" sequence="40" value="NL-01_N"/>
+                <element inactive_on_update="false" label="NL-05_W" sequence="80" value="NL-05_W"/>
+                <element inactive="true" inactive_on_update="true" label="BBX" sequence="10" value="BBX"/>
+                <element inactive_on_update="false" label="NL-02_NW" sequence="50" value="NL-02_NW"/>
+                <element inactive_on_update="false" label="NL-06_RL" sequence="9" value="NL-06_RL"/>
+                <element inactive_on_update="false" label="Gesamtbetriebsrat" sequence="20" value="Gesamtbetriebsrat"/>
+                <element inactive_on_update="false" label="NL-03_NO" sequence="60" value="NL-03_NO"/>
+                <element inactive_on_update="false" label="NL-07_WF" sequence="100" value="NL-07_WF"/>
+                <element inactive="true" inactive_on_update="true" label="L-03_NO" sequence="30" value="L-03_NO"/>
+                <element inactive_on_update="false" label="NL-04_O" sequence="70" value="NL-04_O"/>
+                <element inactive_on_update="false" label="NL-09_NB" sequence="120" value="NL-09_NB"/>
+                <element inactive_on_update="false" label="NL-10_SB" sequence="130" value="NL-10_SB"/>
+                <element inactive_on_update="false" label="Zentrale" sequence="140" value="Zentrale"/>
+                <element inactive_on_update="false" label="NL-08_SW" sequence="110" value="NL-08_SW"/>
+            </choice>
+        </element>
+        <element label="Approver 2" max_length="32" name="u_approver_2" reference="sys_user" type="reference"/>
+        <element choice="1" label="Customer Specific Data 2" max_length="400" name="u_customer_specific_data_2" type="choice">
+            <choice>
+                <element dependent_value="NL-01_N" inactive_on_update="false" label="E1" sequence="28" value="E1"/>
+                <element dependent_value="NL-01_N" inactive_on_update="false" label="HH" sequence="32" value="HH"/>
+                <element dependent_value="Zentrale" inactive_on_update="false" label="RW" sequence="300" value="RW"/>
+                <element dependent_value="NL-05_W" inactive_on_update="false" label="AMS_Dokumente" sequence="123" value="AMS_Dokumente"/>
+                <element dependent_value="NL-08_SW" inactive_on_update="false" label="Planen_Bauen" sequence="234" value="Planen_Bauen"/>
+                <element dependent_value="NL-08_SW" inactive_on_update="false" label="SS" sequence="236" value="SS"/>
+                <element dependent_value="NL-08_SW" inactive_on_update="false" label="Verwaltung" sequence="238" value="Verwaltung"/>
+                <element dependent_value="NL-01_N" inactive_on_update="false" label="E2" sequence="29" value="E2"/>
+                <element dependent_value="NL-08_SW" inactive_on_update="false" label="AMS_Dokumente" sequence="213" value="AMS_Dokumente"/>
+                <element dependent_value="NL-04_O" inactive_on_update="false" label="VMZPei" sequence="121" value="VMZPei"/>
+                <element dependent_value="Zentrale" inactive_on_update="false" label="Wahlvorstand" sequence="319" value="Wahlvorstand"/>
+                <element dependent_value="NL-01_N" inactive_on_update="false" label="E3" sequence="30" value="E3"/>
+                <element dependent_value="NL-04_O" inactive_on_update="false" label="Vergabe" sequence="119" value="Vergabe"/>
+                <element dependent_value="NL-08_SW" inactive_on_update="false" label="NLL" sequence="233" value="NLL"/>
+                <element dependent_value="NL-08_SW" inactive_on_update="false" label="SBV" sequence="235" value="SBV"/>
+                <element dependent_value="NL-08_SW" inactive_on_update="false" label="Vergabe" sequence="237" value="Vergabe"/>
+                <element dependent_value="NL-01_N" inactive_on_update="false" label="D1" sequence="27" value="D1"/>
+                <element dependent_value="NL-01_N" inactive_on_update="false" label="Entwaesserung" sequence="31" value="Entwaesserung"/>
+                <element dependent_value="NL-05_W" inactive_on_update="false" label="Aufbauteam" sequence="125" value="Aufbauteam"/>
+                <element dependent_value="NL-05_W" inactive_on_update="false" label="Vergabe" sequence="131" value="Vergabe"/>
+                <element dependent_value="NL-10_SB" inactive_on_update="false" label="ASR" sequence="263" value="ASR"/>
+                <element dependent_value="NL-01_N" inactive_on_update="false" label="LG" sequence="36" value="LG"/>
+                <element dependent_value="NL-01_N" inactive_on_update="false" label="RD" sequence="40" value="RD"/>
+                <element dependent_value="NL-08_SW" inactive_on_update="false" label="ASHN" sequence="217" value="ASHN"/>
+                <element dependent_value="NL-04_O" inactive_on_update="false" label="ASEF_GBC" sequence="94" value="ASEF_GBC"/>
+                <element dependent_value="NL-04_O" inactive_on_update="false" label="ASMD_GBC" sequence="98" value="ASMD_GBC"/>
+                <element dependent_value="Zentrale" inactive_on_update="false" label="GF_Personal" sequence="285" value="GF_Personal"/>
+                <element dependent_value="NL-01_N" inactive_on_update="false" label="HH_A_LTG" sequence="33" value="HH_A_LTG"/>
+                <element dependent_value="NL-01_N" inactive_on_update="false" label="Liegenschaftsverwaltung_GE" sequence="37" value="Liegenschaftsverwaltung_GE"/>
+                <element dependent_value="NL-01_N" inactive_on_update="false" label="Schaden" sequence="41" value="Schaden"/>
+                <element dependent_value="NL-04_O" inactive_on_update="false" label="ASMD" sequence="95" value="ASMD"/>
+                <element dependent_value="NL-04_O" inactive_on_update="false" label="Aufbauteam" sequence="99" value="Aufbauteam"/>
+                <element dependent_value="NL-10_SB" inactive_on_update="false" label="ASM" sequence="262" value="ASM"/>
+                <element dependent_value="NL-01_N" inactive_on_update="false" label="HH_GB_A" sequence="34" value="HH_GB_A"/>
+                <element dependent_value="NL-01_N" inactive_on_update="false" label="Planen_Bauen" sequence="38" value="Planen_Bauen"/>
+                <element dependent_value="NL-01_N" inactive_on_update="false" label="STD" sequence="42" value="STD"/>
+                <element dependent_value="NL-04_O" inactive_on_update="false" label="ASMD_GBA" sequence="96" value="ASMD_GBA"/>
+                <element dependent_value="NL-05_W" inactive_on_update="false" label="BR_AS_NK" sequence="127" value="BR_AS_NK"/>
+                <element dependent_value="Zentrale" inactive_on_update="false" label="GF_Technik" sequence="286" value="GF_Technik"/>
+                <element dependent_value="NL-01_N" inactive_on_update="false" label="HL" sequence="35" value="HL"/>
+                <element dependent_value="NL-01_N" inactive_on_update="false" label="Rastanlagen" sequence="39" value="Rastanlagen"/>
+                <element dependent_value="NL-01_N" inactive_on_update="false" label="TBZ" sequence="43" value="TBZ"/>
+                <element dependent_value="NL-08_SW" inactive_on_update="false" label="AS" sequence="214" value="AS"/>
+                <element dependent_value="NL-04_O" inactive_on_update="false" label="ASMD_GBB" sequence="97" value="ASMD_GBB"/>
+                <element dependent_value="NL-06_RL" inactive_on_update="false" label="Leitung_TLFS2" sequence="172" value="Leitung_TLFS2"/>
+                <element dependent_value="NL-07_WF" inactive_on_update="false" label="Bau" sequence="200" value="Bau"/>
+                <element dependent_value="Zentrale" inactive_on_update="false" label="InfoSec" sequence="291" value="InfoSec"/>
+                <element dependent_value="Zentrale" inactive_on_update="false" label="Testanlage_03" sequence="310" value="Testanlage_03"/>
+                <element dependent_value="NL-04_O" inactive_on_update="false" label="Betrieb" sequence="101" value="Betrieb"/>
+                <element dependent_value="Zentrale" inactive_on_update="false" label="IT" sequence="292" value="IT"/>
+                <element dependent_value="Zentrale" inactive_on_update="false" label="Tests" sequence="312" value="Tests"/>
+                <element dependent_value="Zentrale" inactive_on_update="false" label="Testanlage_01" sequence="309" value="Testanlage_01"/>
+                <element dependent_value="Gesamtbetriebsrat" inactive_on_update="false" label="Ausschüsse" sequence="3" value="Ausschüsse"/>
+                <element dependent_value="Zentrale" inactive_on_update="false" label="Betriebsrat" sequence="274" value="Betriebsrat"/>
+                <element dependent_value="Zentrale" inactive_on_update="false" label="Corp_Govern_Int_Rev" sequence="276" value="Corp_Govern_Int_Rev"/>
+                <element dependent_value="L-03_NO" inactive_on_update="false" label="PuB" sequence="4" value="PuB"/>
+                <element dependent_value="NL-04_O" inactive_on_update="false" label="AMDob" sequence="74" value="AMDob"/>
+                <element dependent_value="NL-08_SW" inactive_on_update="false" label="GBC" sequence="228" value="GBC"/>
+                <element dependent_value="NL-08_SW" inactive_on_update="false" label="GBE" sequence="230" value="GBE"/>
+                <element dependent_value="NL-08_SW" inactive_on_update="false" label="NL" sequence="232" value="NL"/>
+                <element dependent_value="Zentrale" inactive_on_update="false" label="UK" sequence="315" value="UK"/>
+                <element dependent_value="Zentrale" inactive_on_update="false" label="VBV" sequence="317" value="VBV"/>
+                <element dependent_value="NL-06_RL" inactive_on_update="false" label="Leitung_TLLev3" sequence="176" value="Leitung_TLLev3"/>
+                <element dependent_value="NL-01_N" inactive_on_update="false" label="A1" sequence="5" value="A1"/>
+                <element dependent_value="NL-04_O" inactive_on_update="false" label="AMErf" sequence="75" value="AMErf"/>
+                <element dependent_value="NL-06_RL" inactive_on_update="false" label="Leitung_TLLev1" sequence="174" value="Leitung_TLLev1"/>
+                <element dependent_value="Zentrale" inactive_on_update="false" label="Beziehung_zu_Tarifpartnern" sequence="275" value="Beziehung_zu_Tarifpartnern"/>
+                <element dependent_value="Zentrale" inactive_on_update="false" label="Datenschutz" sequence="277" value="Datenschutz"/>
+                <element dependent_value="Gesamtbetriebsrat" inactive_on_update="false" sequence="2"/>
+                <element dependent_value="NL-01_N" inactive_on_update="false" label="A2" sequence="6" value="A2"/>
+                <element dependent_value="NL-08_SW" inactive_on_update="false" label="GBD" sequence="229" value="GBD"/>
+                <element dependent_value="NL-08_SW" inactive_on_update="false" label="Liegenschaftsverwaltung_GE" sequence="231" value="Liegenschaftsverwaltung_GE"/>
+                <element dependent_value="Zentrale" inactive_on_update="false" label="Unternehmenssicherheit" sequence="316" value="Unternehmenssicherheit"/>
+                <element dependent_value="NL-06_RL" inactive_on_update="false" label="Projektfinanzierung" sequence="182" value="Projektfinanzierung"/>
+                <element dependent_value="NL-01_N" inactive_on_update="false" label="B4" sequence="18" value="B4"/>
+                <element dependent_value="NL-01_N" inactive_on_update="false" label="BR_HL" sequence="22" value="BR_HL"/>
+                <element dependent_value="NL-01_N" inactive_on_update="false" label="CAD" sequence="26" value="CAD"/>
+                <element dependent_value="NL-09_NB" inactive_on_update="false" label="Verwaltung" sequence="258" value="Verwaltung"/>
+                <element dependent_value="NL-01_N" inactive_on_update="false" label="B1" sequence="15" value="B1"/>
+                <element dependent_value="NL-01_N" inactive_on_update="false" label="B5" sequence="19" value="B5"/>
+                <element dependent_value="NL-01_N" inactive_on_update="false" label="BR_RD" sequence="23" value="BR_RD"/>
+                <element dependent_value="Zentrale" inactive_on_update="false" label="Recht" sequence="299" value="Recht"/>
+                <element dependent_value="Zentrale" inactive_on_update="false" label="SBV" sequence="301" value="SBV"/>
+                <element dependent_value="NL-04_O" inactive_on_update="false" label="testLSK002" sequence="117" value="testLSK002"/>
+                <element dependent_value="NL-06_RL" inactive_on_update="false" label="JAV" sequence="156" value="JAV"/>
+                <element dependent_value="NL-06_RL" inactive_on_update="false" label="Verkehrsplanung_u_Mob" sequence="186" value="Verkehrsplanung_u_Mob"/>
+                <element dependent_value="NL-01_N" inactive_on_update="false" label="B2" sequence="16" value="B2"/>
+                <element dependent_value="NL-01_N" inactive_on_update="false" label="Betr_Verkehr" sequence="20" value="Betr_Verkehr"/>
+                <element dependent_value="NL-01_N" inactive_on_update="false" label="C1" sequence="24" value="C1"/>
+                <element dependent_value="Zentrale" inactive_on_update="false" label="Stab Politik" sequence="303" value="Stab Politik"/>
+                <element dependent_value="NL-06_RL" inactive_on_update="false" label="Eu_Nachtragsbearbeitung" sequence="151" value="Eu_Nachtragsbearbeitung"/>
+                <element dependent_value="NL-06_RL" inactive_on_update="false" label="Governance" sequence="154" value="Governance"/>
+                <element dependent_value="NL-09_NB" inactive_on_update="false" label="Vergabe" sequence="257" value="Vergabe"/>
+                <element dependent_value="NL-06_RL" inactive_on_update="false" label="Planung" sequence="181" value="Planung"/>
+                <element dependent_value="NL-06_RL" inactive_on_update="false" label="SBV" sequence="184" value="SBV"/>
+                <element dependent_value="NL-01_N" inactive_on_update="false" label="B3" sequence="17" value="B3"/>
+                <element dependent_value="NL-01_N" inactive_on_update="false" label="BR_HH" sequence="21" value="BR_HH"/>
+                <element dependent_value="NL-01_N" inactive_on_update="false" label="C2" sequence="25" value="C2"/>
+                <element dependent_value="NL-09_NB" inactive_on_update="false" label="A" sequence="239" value="A"/>
+                <element dependent_value="NL-09_NB" inactive_on_update="false" label="ASB" sequence="241" value="ASB"/>
+                <element dependent_value="NL-09_NB" inactive_on_update="false" label="ASF_GBL" sequence="243" value="ASF_GBL"/>
+                <element dependent_value="NL-06_RL" inactive_on_update="false" label="KIB_Team3_K" sequence="160" value="KIB_Team3_K"/>
+                <element dependent_value="NL-06_RL" inactive_on_update="false" label="VuV_Datenaustausch_KR" sequence="190" value="VuV_Datenaustausch_KR"/>
+                <element dependent_value="NL-08_SW" inactive_on_update="false" label="ASHD" sequence="216" value="ASHD"/>
+                <element dependent_value="Zentrale" inactive_on_update="false" label="Test" sequence="307" value="Test"/>
+                <element dependent_value="NL-06_RL" inactive_on_update="false" label="K_Nachtragsbearbeitung" sequence="158" value="K_Nachtragsbearbeitung"/>
+                <element dependent_value="NL-06_RL" inactive_on_update="false" label="VuV_Allgemeines_K" sequence="188" value="VuV_Allgemeines_K"/>
+                <element dependent_value="Zentrale" inactive_on_update="false" label="GF_Finanzen" sequence="284" value="GF_Finanzen"/>
+                <element dependent_value="NL-09_NB" inactive_on_update="false" label="AM" sequence="240" value="AM"/>
+                <element dependent_value="NL-09_NB" inactive_on_update="false" label="ASF" sequence="242" value="ASF"/>
+                <element dependent_value="NL-06_RL" inactive_on_update="false" label="Kr_Projektsteuerung" sequence="164" value="Kr_Projektsteuerung"/>
+                <element dependent_value="NL-06_RL" inactive_on_update="false" label="VuV_Rechnungsbearbeitung_KR" sequence="194" value="VuV_Rechnungsbearbeitung_KR"/>
+                <element dependent_value="NL-08_SW" inactive_on_update="false" label="ASFR" sequence="215" value="ASFR"/>
+                <element dependent_value="NL-05_W" inactive_on_update="false" label="Planen_Bauen" sequence="129" value="Planen_Bauen"/>
+                <element dependent_value="NL-06_RL" inactive_on_update="false" label="Kr" sequence="162" value="Kr"/>
+                <element dependent_value="NL-06_RL" inactive_on_update="false" label="VuV_Nachtragsbearbeitung_EU" sequence="192" value="VuV_Nachtragsbearbeitung_EU"/>
+                <element dependent_value="Zentrale" inactive_on_update="false" label="Stab_Transformation" sequence="305" value="Stab_Transformation"/>
+                <element dependent_value="NL-06_RL" inactive_on_update="false" label="Betieb" sequence="138" value="Betieb"/>
+                <element dependent_value="NL-06_RL" inactive_on_update="false" label="Betriebsrat" sequence="141" value="Betriebsrat"/>
+                <element dependent_value="NL-09_NB" inactive_on_update="false" label="Aufbauteam" sequence="245" value="Aufbauteam"/>
+                <element dependent_value="NL-06_RL" inactive_on_update="false" label="Leitung_ALTI" sequence="168" value="Leitung_ALTI"/>
+                <element dependent_value="NL-07_WF" inactive_on_update="false" label="Aufbauteam_IT_Immobilien" sequence="198" value="Aufbauteam_IT_Immobilien"/>
+                <element dependent_value="Zentrale" inactive_on_update="false" label="Gremien" sequence="290" value="Gremien"/>
+                <element dependent_value="NL-03_NO" inactive_on_update="false" label="Planen_Bauen" sequence="63" value="Planen_Bauen"/>
+                <element dependent_value="NL-04_O" inactive_on_update="false" label="Liegenschaftsverwaltung_GE" sequence="105" value="Liegenschaftsverwaltung_GE"/>
+                <element dependent_value="NL-06_RL" inactive_on_update="false" label="Aufbauteam" sequence="136" value="Aufbauteam"/>
+                <element dependent_value="NL-06_RL" inactive_on_update="false" label="Betr_Verkehr" sequence="139" value="Betr_Verkehr"/>
+                <element dependent_value="NL-06_RL" inactive_on_update="false" label="Kr_Vertragsdaten" sequence="166" value="Kr_Vertragsdaten"/>
+                <element dependent_value="NL-10_SB" inactive_on_update="false" label="Vergabe" sequence="269" value="Vergabe"/>
+                <element dependent_value="Zentrale" inactive_on_update="false" label="Allgemein" sequence="271" value="Allgemein"/>
+                <element dependent_value="NL-07_WF" inactive_on_update="false" label="AS" sequence="196" value="AS"/>
+                <element dependent_value="NL-08_SW" inactive_on_update="false" label="Datalmport" sequence="225" value="Datalmport"/>
+                <element dependent_value="NL-04_O" inactive_on_update="false" label="FITLeg" sequence="103" value="FITLeg"/>
+                <element dependent_value="NL-06_RL" inactive_on_update="false" label="Arbeitssicherheit" sequence="134" value="Arbeitssicherheit"/>
+                <element dependent_value="NL-09_NB" inactive_on_update="false" label="ASW" sequence="244" value="ASW"/>
+                <element dependent_value="NL-09_NB" inactive_on_update="false" label="B" sequence="246" value="B"/>
+                <element dependent_value="Zentrale" inactive_on_update="false" label="GP_DEGES" sequence="289" value="GP_DEGES"/>
+                <element dependent_value="NL-06_RL" inactive_on_update="false" label="Leitung_TLFIT" sequence="170" value="Leitung_TLFIT"/>
+                <element dependent_value="NL-10_SB" inactive_on_update="false" label="Planen_Bauen" sequence="268" value="Planen_Bauen"/>
+                <element dependent_value="NL-10_SB" inactive_on_update="false" label="Verwaltung" sequence="270" value="Verwaltung"/>
+                <element dependent_value="Zentrale" inactive_on_update="false" label="Aufsichtsrat" sequence="272" value="Aufsichtsrat"/>
+                <element dependent_value="NL-03_NO" inactive_on_update="false" label="Gremien" sequence="62" value="Gremien"/>
+                <element dependent_value="NL-08_SW" inactive_on_update="false" label="D3_Registratur_Servicemanagement" sequence="224" value="D3_Registratur_Servicemanagement"/>
+                <element dependent_value="NL-08_SW" inactive_on_update="false" label="GBA" sequence="226" value="GBA"/>
+                <element dependent_value="NL-04_O" inactive_on_update="false" label="NLHAL_GBA" sequence="107" value="NLHAL_GBA"/>
+                <element dependent_value="NL-06_RL" inactive_on_update="false" label="Es_Rechnungsbearbeitung" sequence="149" value="Es_Rechnungsbearbeitung"/>
+                <element dependent_value="NL-06_RL" inactive_on_update="false" label="Personal" sequence="179" value="Personal"/>
+                <element dependent_value="NL-01_N" inactive_on_update="false" label="AM_Bad_Oldesloe" sequence="10" value="AM_Bad_Oldesloe"/>
+                <element dependent_value="NL-01_N" inactive_on_update="false" label="Aufbauteam" sequence="14" value="Aufbauteam"/>
+                <element dependent_value="NL-04_O" inactive_on_update="false" label="AM_Pei" sequence="67" value="AM_Pei"/>
+                <element dependent_value="NL-04_O" inactive_on_update="false" label="AMDDH" sequence="71" value="AMDDH"/>
+                <element dependent_value="NL-04_O" inactive_on_update="false" label="Planen_Bauen" sequence="113" value="Planen_Bauen"/>
+                <element dependent_value="NL-06_RL" inactive_on_update="false" label="Es" sequence="147" value="Es"/>
+                <element dependent_value="Zentrale" inactive_on_update="false" label="Austauschordner_Bven_Feistkorn_Steiger_Stietz_Bechtolf" sequence="273" value="Austauschordner_Bven_Feistkorn_Steiger_Stietz_Bechtolf"/>
+                <element dependent_value="NL-01_N" inactive_on_update="false" label="AM_Grande" sequence="11" value="AM_Grande"/>
+                <element dependent_value="Zentrale" inactive_on_update="false" label="Pers_entw_Orga" sequence="297" value="Pers_entw_Orga"/>
+                <element dependent_value="NL-03_NO" inactive_on_update="false" label="PuB" sequence="64" value="PuB"/>
+                <element dependent_value="NL-04_O" inactive_on_update="false" label="AMBor" sequence="68" value="AMBor"/>
+                <element dependent_value="NL-04_O" inactive_on_update="false" label="AMDDN" sequence="72" value="AMDDN"/>
+                <element dependent_value="NL-08_SW" inactive_on_update="false" label="GBB" sequence="227" value="GBB"/>
+                <element dependent_value="NL-04_O" inactive_on_update="false" label="NLHAL_GBE" sequence="111" value="NLHAL_GBE"/>
+                <element dependent_value="NL-06_RL" inactive_on_update="false" label="CSFB" sequence="145" value="CSFB"/>
+                <element dependent_value="NL-01_N" inactive_on_update="false" label="AM_Scharbeutz" sequence="12" value="AM_Scharbeutz"/>
+                <element inactive_on_update="false"/>
+                <element dependent_value="NL-03_NO" inactive_on_update="false" label="Vergabe" sequence="65" value="Vergabe"/>
+                <element dependent_value="NL-04_O" inactive_on_update="false" label="AMBrw" sequence="69" value="AMBrw"/>
+                <element dependent_value="NL-04_O" inactive_on_update="false" label="AMDes" sequence="73" value="AMDes"/>
+                <element dependent_value="NL-04_O" inactive_on_update="false" label="NLHAL_GBC" sequence="109" value="NLHAL_GBC"/>
+                <element dependent_value="NL-06_RL" inactive_on_update="false" label="Compliance" sequence="143" value="Compliance"/>
+                <element dependent_value="NL-01_N" inactive_on_update="false" label="A5" sequence="9" value="A5"/>
+                <element dependent_value="NL-01_N" inactive_on_update="false" label="AMS_Dokumente" sequence="13" value="AMS_Dokumente"/>
+                <element dependent_value="Zentrale" inactive_on_update="false" label="Pers_fuersorge_Arb_sicherheit" sequence="298" value="Pers_fuersorge_Arb_sicherheit"/>
+                <element dependent_value="NL-03_NO" inactive_on_update="false" label="Verwaltung" sequence="66" value="Verwaltung"/>
+                <element dependent_value="NL-04_O" inactive_on_update="false" label="AMChe" sequence="70" value="AMChe"/>
+                <element dependent_value="NL-04_O" inactive_on_update="false" label="StVB" sequence="115" value="StVB"/>
+                <element dependent_value="NL-04_O" inactive_on_update="false" label="Verwaltung" sequence="120" value="Verwaltung"/>
+                <element dependent_value="NL-10_SB" inactive_on_update="false" label="ASK" sequence="261" value="ASK"/>
+                <element dependent_value="Zentrale" inactive_on_update="false" label="Finanzbuchhaltung" sequence="280" value="Finanzbuchhaltung"/>
+                <element dependent_value="Zentrale" inactive_on_update="false" label="GB PersV_recht" sequence="282" value="GB PersV_recht"/>
+                <element dependent_value="NL-04_O" inactive_on_update="false" label="AMObe" sequence="78" value="AMObe"/>
+                <element dependent_value="NL-04_O" inactive_on_update="false" label="AMThe" sequence="82" value="AMThe"/>
+                <element dependent_value="NL-04_O" inactive_on_update="false" label="AMZel" sequence="86" value="AMZel"/>
+                <element dependent_value="NL-07_WF" inactive_on_update="false" label="Planen_Bauen" sequence="209" value="Planen_Bauen"/>
+                <element dependent_value="NL-07_WF" inactive_on_update="false" label="Verwaltung" sequence="211" value="Verwaltung"/>
+                <element dependent_value="NL-04_O" inactive_on_update="false" label="AMPei" sequence="79" value="AMPei"/>
+                <element dependent_value="NL-04_O" inactive_on_update="false" label="AMWeb" sequence="83" value="AMWeb"/>
+                <element dependent_value="NL-04_O" inactive_on_update="false" label="ASDD" sequence="87" value="ASDD"/>
+                <element dependent_value="Zentrale" inactive_on_update="false" label="Finanzen" sequence="281" value="Finanzen"/>
+                <element dependent_value="Zentrale" inactive_on_update="false" label="GF_Allgemein" sequence="283" value="GF_Allgemein"/>
+                <element dependent_value="NL-04_O" inactive_on_update="false" label="AMPlo" sequence="80" value="AMPlo"/>
+                <element dependent_value="NL-04_O" inactive_on_update="false" label="AMWer" sequence="84" value="AMWer"/>
+                <element dependent_value="NL-04_O" inactive_on_update="false" label="ASDD_GBA" sequence="88" value="ASDD_GBA"/>
+                <element dependent_value="NL-04_O" inactive_on_update="false" label="ZBLZel" sequence="122" value="ZBLZel"/>
+                <element dependent_value="NL-09_NB" inactive_on_update="false" label="S" sequence="256" value="S"/>
+                <element dependent_value="NL-07_WF" inactive_on_update="false" label="Vergabe" sequence="210" value="Vergabe"/>
+                <element dependent_value="NL-08_SW" inactive_on_update="false" label="AM" sequence="212" value="AM"/>
+                <element dependent_value="NL-04_O" inactive_on_update="false" label="AMLei" sequence="77" value="AMLei"/>
+                <element dependent_value="NL-04_O" inactive_on_update="false" label="AMS_Dokumente" sequence="81" value="AMS_Dokumente"/>
+                <element dependent_value="NL-04_O" inactive_on_update="false" label="AMWsf" sequence="85" value="AMWsf"/>
+                <element dependent_value="NL-05_W" inactive_on_update="false" label="Liegenschaftsverwaltung_GE" sequence="128" value="Liegenschaftsverwaltung_GE"/>
+                <element dependent_value="Zentrale" inactive_on_update="false" label="Gleichstell_beauf" sequence="287" value="Gleichstell_beauf"/>
+                <element dependent_value="Zentrale" inactive_on_update="false" label="Testanlage. 04" sequence="308" value="Testanlage. 04"/>
+                <element dependent_value="NL-04_O" inactive_on_update="false" label="ASDD_GBC" sequence="90" value="ASDD_GBC"/>
+                <element dependent_value="NL-05_W" inactive_on_update="false" label="Betr_Verkehr" sequence="126" value="Betr_Verkehr"/>
+                <element dependent_value="NL-05_W" inactive_on_update="false" label="Verwaltung" sequence="132" value="Verwaltung"/>
+                <element dependent_value="NL-08_SW" inactive_on_update="false" label="ASKA" sequence="218" value="ASKA"/>
+                <element dependent_value="NL-04_O" inactive_on_update="false" label="ASEF" sequence="91" value="ASEF"/>
+                <element dependent_value="NL-05_W" inactive_on_update="false" label="Asi_Pers" sequence="124" value="Asi_Pers"/>
+                <element dependent_value="Zentrale" inactive_on_update="false" label="Governance" sequence="288" value="Governance"/>
+                <element dependent_value="NL-04_O" inactive_on_update="false" label="ASEF_GBA" sequence="92" value="ASEF_GBA"/>
+                <element dependent_value="NL-08_SW" inactive_on_update="false" label="ASSV" sequence="219" value="ASSV"/>
+                <element dependent_value="NL-04_O" inactive_on_update="false" label="ASDD_GBB" sequence="89" value="ASDD_GBB"/>
+                <element dependent_value="NL-04_O" inactive_on_update="false" label="ASEF_GBB" sequence="93" value="ASEF_GBB"/>
+                <element dependent_value="NL-03_NO" inactive_on_update="false" label="BuV" sequence="61" value="BuV"/>
+                <element dependent_value="Zentrale" inactive_on_update="false" label="Transformation" sequence="313" value="Transformation"/>
+                <element inactive_on_update="false"/>
+                <element dependent_value="NL-06_RL" inactive_on_update="false" label="Leitung_TLHamBo" sequence="173" value="Leitung_TLHamBo"/>
+                <element dependent_value="NL-08_SW" inactive_on_update="false" label="Aufbauteam" sequence="220" value="Aufbauteam"/>
+                <element dependent_value="NL-08_SW" inactive_on_update="false" label="Betr_Verkehr" sequence="222" value="Betr_Verkehr"/>
+                <element dependent_value="Zentrale" inactive_on_update="false" label="Liegenschaften" sequence="293" value="Liegenschaften"/>
+                <element dependent_value="NL-03_NO" inactive_on_update="false" label="Betriebsrat" sequence="60" value="Betriebsrat"/>
+                <element dependent_value="NL-08_SW" inactive_on_update="false" label="BEM" sequence="221" value="BEM"/>
+                <element dependent_value="NL-08_SW" inactive_on_update="false" label="Betriebsrat" sequence="223" value="Betriebsrat"/>
+                <element dependent_value="Zentrale" inactive_on_update="false" label="Testanlage_05" sequence="311" value="Testanlage_05"/>
+                <element dependent_value="NL-06_RL" inactive_on_update="false" label="Leitung_TLLev2" sequence="175" value="Leitung_TLLev2"/>
+                <element inactive_on_update="false"/>
+                <element dependent_value="NL-01_N" inactive_on_update="false" label="A4" sequence="8" value="A4"/>
+                <element dependent_value="NL-07_WF" inactive_on_update="false" label="CSBF" sequence="202" value="CSBF"/>
+                <element dependent_value="NL-09_NB" inactive_on_update="false" label="Planen_Bauen" sequence="255" value="Planen_Bauen"/>
+                <element dependent_value="Zentrale" inactive_on_update="false" label="Mitbestimmung" sequence="294" value="Mitbestimmung"/>
+                <element dependent_value="Zentrale" inactive_on_update="false" label="PBI" sequence="296" value="PBI"/>
+                <element dependent_value="NL-07_WF" inactive_on_update="false" label="Betr_Verkehr" sequence="201" value="Betr_Verkehr"/>
+                <element dependent_value="NL-04_O" inactive_on_update="false" label="AMHdf" sequence="76" value="AMHdf"/>
+                <element dependent_value="Zentrale" inactive_on_update="false" label="ÜBR" sequence="314" value="ÜBR"/>
+                <element dependent_value="NL-06_RL" inactive_on_update="false" label="Liegenschaftsverwaltung_GE" sequence="177" value="Liegenschaftsverwaltung_GE"/>
+                <element dependent_value="NL-01_N" inactive_on_update="false" label="A3" sequence="7" value="A3"/>
+                <element dependent_value="Zentrale" inactive_on_update="false" label="Ohsen" sequence="295" value="Ohsen"/>
+                <element dependent_value="Zentrale" inactive_on_update="false" label="Vergabe" sequence="318" value="Vergabe"/>
+                <element dependent_value="NL-06_RL" inactive_on_update="false" label="Eu_Rechnungsbearbeitung" sequence="152" value="Eu_Rechnungsbearbeitung"/>
+                <element dependent_value="NL-06_RL" inactive_on_update="false" label="Infosec" sequence="155" value="Infosec"/>
+                <element dependent_value="NL-10_SB" inactive_on_update="false" label="ASD" sequence="260" value="ASD"/>
+                <element dependent_value="NL-06_RL" inactive_on_update="false" label="Vergabe" sequence="185" value="Vergabe"/>
+                <element dependent_value="Zentrale" inactive_on_update="false" label="Fin_Int_Dienste" sequence="279" value="Fin_Int_Dienste"/>
+                <element dependent_value="NL-06_RL" inactive_on_update="false" label="Eu" sequence="150" value="Eu"/>
+                <element dependent_value="NL-06_RL" inactive_on_update="false" label="Finanzen" sequence="153" value="Finanzen"/>
+                <element dependent_value="NL-06_RL" inactive_on_update="false" label="Rheinbruecken" sequence="183" value="Rheinbruecken"/>
+                <element dependent_value="NL-07_WF" inactive_on_update="false" label="Liegenschaftsverwaltung_GE" sequence="208" value="Liegenschaftsverwaltung_GE"/>
+                <element dependent_value="NL-09_NB" inactive_on_update="false" label="VP" sequence="259" value="VP"/>
+                <element dependent_value="Zentrale" inactive_on_update="false" label="ERP" sequence="278" value="ERP"/>
+                <element dependent_value="NL-04_O" inactive_on_update="false" label="testLSK003" sequence="118" value="testLSK003"/>
+                <element dependent_value="NL-06_RL" inactive_on_update="false" label="K" sequence="157" value="K"/>
+                <element dependent_value="NL-06_RL" inactive_on_update="false" label="Verwaltung" sequence="187" value="Verwaltung"/>
+                <element dependent_value="NL-07_WF" inactive_on_update="false" label="IT" sequence="207" value="IT"/>
+                <element dependent_value="Zentrale" inactive_on_update="false" label="Sicherheitdienst WPC" sequence="302" value="Sicherheitdienst WPC"/>
+                <element dependent_value="NL-05_W" inactive_on_update="false" label="Planen_Bauen_B3GeoStraßenbau" sequence="130" value="Planen_Bauen_B3GeoStraßenbau"/>
+                <element dependent_value="NL-06_RL" inactive_on_update="false" label="Kr_Nachtragsbearbeitung" sequence="163" value="Kr_Nachtragsbearbeitung"/>
+                <element dependent_value="NL-06_RL" inactive_on_update="false" label="VuV_Rechnungsbearbeitung_EU" sequence="193" value="VuV_Rechnungsbearbeitung_EU"/>
+                <element dependent_value="NL-01_N" inactive_on_update="false" label="Verwaltung" sequence="47" value="Verwaltung"/>
+                <element dependent_value="Zentrale" inactive_on_update="false" label="Stab Transformation" sequence="304" value="Stab Transformation"/>
+                <element inactive_on_update="false"/>
+                <element dependent_value="NL-06_RL" inactive_on_update="false" label="Kommunikation" sequence="161" value="Kommunikation"/>
+                <element dependent_value="NL-10_SB" inactive_on_update="false" label="Betr_Verkehr" sequence="265" value="Betr_Verkehr"/>
+                <element dependent_value="NL-06_RL" inactive_on_update="false" label="VuV_EU" sequence="191" value="VuV_EU"/>
+                <element dependent_value="NL-01_N" inactive_on_update="false" label="Umwelt" sequence="44" value="Umwelt"/>
+                <element dependent_value="NL-02_NW" inactive_on_update="false" label="AMS_Dokumente" sequence="48" value="AMS_Dokumente"/>
+                <element dependent_value="Zentrale" inactive_on_update="false" label="Strategie" sequence="306" value="Strategie"/>
+                <element dependent_value="NL-06_RL" inactive_on_update="false" label="K_Rechnungsbearbeitung" sequence="159" value="K_Rechnungsbearbeitung"/>
+                <element dependent_value="NL-06_RL" inactive_on_update="false" label="VuV_Datenaustausch_EU" sequence="189" value="VuV_Datenaustausch_EU"/>
+                <element dependent_value="NL-01_N" inactive_on_update="false" label="Vergabe" sequence="45" value="Vergabe"/>
+                <element dependent_value="NL-04_O" inactive_on_update="false" label="Betr_Verkehr" sequence="100" value="Betr_Verkehr"/>
+                <element dependent_value="NL-06_RL" inactive_on_update="false" label="Kr_Rechnungsbearbeitung" sequence="165" value="Kr_Rechnungsbearbeitung"/>
+                <element dependent_value="NL-10_SB" inactive_on_update="false" label="Aufbauteam" sequence="264" value="Aufbauteam"/>
+                <element dependent_value="NL-10_SB" inactive_on_update="false" label="Liegenschaftsverwaltung_GE" sequence="266" value="Liegenschaftsverwaltung_GE"/>
+                <element dependent_value="NL-01_N" inactive_on_update="false" label="Verkehr" sequence="46" value="Verkehr"/>
+                <element dependent_value="NL-06_RL" inactive_on_update="false" label="AMS_Dokumente" sequence="133" value="AMS_Dokumente"/>
+                <element dependent_value="NL-06_RL" inactive_on_update="false" label="Leitung_TLFS1" sequence="171" value="Leitung_TLFS1"/>
+                <element dependent_value="NL-02_NW" inactive_on_update="false" label="Betr_Verkehr" sequence="51" value="Betr_Verkehr"/>
+                <element dependent_value="NL-02_NW" inactive_on_update="false" label="Strassenverwaltung_und_Planungen_Dritter" sequence="55" value="Strassenverwaltung_und_Planungen_Dritter"/>
+                <element dependent_value="NL-03_NO" inactive_on_update="false" label="Betr_Verkehr" sequence="59" value="Betr_Verkehr"/>
+                <element dependent_value="NL-09_NB" inactive_on_update="false" label="BR" sequence="248" value="BR"/>
+                <element dependent_value="NL-06_RL" inactive_on_update="false" label="Leitung_ALVS" sequence="169" value="Leitung_ALVS"/>
+                <element dependent_value="NL-10_SB" inactive_on_update="false" label="NLM" sequence="267" value="NLM"/>
+                <element dependent_value="NL-07_WF" inactive_on_update="false" label="Aufbauteam_Personal" sequence="199" value="Aufbauteam_Personal"/>
+                <element dependent_value="NL-02_NW" inactive_on_update="false" label="Liegenschaftsverwaltung_GE" sequence="52" value="Liegenschaftsverwaltung_GE"/>
+                <element dependent_value="NL-02_NW" inactive_on_update="false" label="Vergabe" sequence="56" value="Vergabe"/>
+                <element dependent_value="NL-04_O" inactive_on_update="false" label="MDDH" sequence="106" value="MDDH"/>
+                <element dependent_value="NL-06_RL" inactive_on_update="false" label="Bau" sequence="137" value="Bau"/>
+                <element dependent_value="NL-06_RL" inactive_on_update="false" label="Betrieb" sequence="140" value="Betrieb"/>
+                <element dependent_value="NL-06_RL" inactive_on_update="false" label="Leitung" sequence="167" value="Leitung"/>
+                <element dependent_value="NL-07_WF" inactive_on_update="false" label="Aufbauteam" sequence="197" value="Aufbauteam"/>
+                <element dependent_value="NL-02_NW" inactive_on_update="false" label="AS_GAN_Betriebsrat" sequence="49" value="AS_GAN_Betriebsrat"/>
+                <element dependent_value="NL-02_NW" inactive_on_update="false" label="Planen_Bauen" sequence="53" value="Planen_Bauen"/>
+                <element dependent_value="NL-02_NW" inactive_on_update="false" label="Verwaltung" sequence="57" value="Verwaltung"/>
+                <element dependent_value="NL-04_O" inactive_on_update="false" label="FITPei" sequence="104" value="FITPei"/>
+                <element dependent_value="NL-06_RL" inactive_on_update="false" label="AS_Essen" sequence="135" value="AS_Essen"/>
+                <element dependent_value="NL-09_NB" inactive_on_update="false" label="Betr_Verkehr" sequence="247" value="Betr_Verkehr"/>
+                <element dependent_value="NL-09_NB" inactive_on_update="false" label="C" sequence="249" value="C"/>
+                <element dependent_value="NL-06_RL" inactive_on_update="false" label="VZ" sequence="195" value="VZ"/>
+                <element dependent_value="NL-02_NW" inactive_on_update="false" label="Aufbauteam" sequence="50" value="Aufbauteam"/>
+                <element dependent_value="NL-02_NW" inactive_on_update="false" label="Strassenverwaltung" sequence="54" value="Strassenverwaltung"/>
+                <element dependent_value="NL-03_NO" inactive_on_update="false" label="Assistenz" sequence="58" value="Assistenz"/>
+                <element dependent_value="NL-04_O" inactive_on_update="false" label="FIT" sequence="102" value="FIT"/>
+                <element dependent_value="NL-06_RL" inactive_on_update="false" label="CSBF" sequence="144" value="CSBF"/>
+                <element dependent_value="NL-04_O" inactive_on_update="false" label="NLHAL_GBB" sequence="108" value="NLHAL_GBB"/>
+                <element dependent_value="NL-04_O" inactive_on_update="false" label="testLSK001" sequence="116" value="testLSK001"/>
+                <element dependent_value="NL-06_RL" inactive_on_update="false" label="BR" sequence="142" value="BR"/>
+                <element dependent_value="NL-09_NB" inactive_on_update="false" label="D" sequence="250" value="D"/>
+                <element dependent_value="NL-09_NB" inactive_on_update="false" label="E1_00_A_Reise" sequence="252" value="E1_00_A_Reise"/>
+                <element dependent_value="NL-09_NB" inactive_on_update="false" label="P" sequence="254" value="P"/>
+                <element dependent_value="NL-06_RL" inactive_on_update="false" label="Planen_Bauen" sequence="180" value="Planen_Bauen"/>
+                <element dependent_value="NL-07_WF" inactive_on_update="false" label="GST" sequence="204" value="GST"/>
+                <element dependent_value="NL-07_WF" inactive_on_update="false" label="Ham_Archiv" sequence="206" value="Ham_Archiv"/>
+                <element dependent_value="NL-04_O" inactive_on_update="false" label="Sachbereich" sequence="114" value="Sachbereich"/>
+                <element dependent_value="NL-06_RL" inactive_on_update="false" label="Es_Nachtragsbearbeitung" sequence="148" value="Es_Nachtragsbearbeitung"/>
+                <element dependent_value="NL-06_RL" inactive_on_update="false" label="MPM" sequence="178" value="MPM"/>
+                <element dependent_value="NL-04_O" inactive_on_update="false" label="NLOst" sequence="112" value="NLOst"/>
+                <element dependent_value="NL-06_RL" inactive_on_update="false" label="Direktion" sequence="146" value="Direktion"/>
+                <element dependent_value="NL-09_NB" inactive_on_update="false" label="E" sequence="251" value="E"/>
+                <element dependent_value="NL-09_NB" inactive_on_update="false" label="Liegenschaftsverwaltung_GE" sequence="253" value="Liegenschaftsverwaltung_GE"/>
+                <element dependent_value="BBX" inactive_on_update="false" label="LSK" sequence="1" value="LSK"/>
+                <element dependent_value="NL-07_WF" inactive_on_update="false" label="CSFB" sequence="203" value="CSFB"/>
+                <element dependent_value="NL-07_WF" inactive_on_update="false" label="HAM" sequence="205" value="HAM"/>
+                <element dependent_value="NL-04_O" inactive_on_update="false" label="NLHAL_GBD" sequence="110" value="NLHAL_GBD"/>
+            </choice>
+        </element>
+        <element label="Folder ID" max_length="400" name="u_folder_id" type="string"/>
+        <element label="Last Modified" max_length="40" name="u_last_modified" type="glide_date_time"/>
+        <element label="Approver 1" max_length="32" name="u_approver_1" reference="sys_user" type="reference"/>
+        <element label="Approver 3" max_length="32" name="u_approver_3" reference="sys_user" type="reference"/>
+        <element label="Customer Specific Data 3" max_length="400" name="u_customer_specific_data_3" type="string"/>
+        <element label="Approver 4" max_length="32" name="u_approver_4" reference="sys_user" type="reference"/>
+        <element label="AD Domain" max_length="400" name="u_ad_domain" type="string"/>
+        <element label="Folder Path" max_length="1000" name="u_path" type="string"/>
+        <element label="Installation Path" max_length="1000" name="u_installation_path" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="28c4d13ac3d6d210d511bd73e40131d8" extends="sys_import_set_row" label="AD_PROD/ADManagedFolders" max_length="40" name="u_ldap_managed_folders" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Tags" label="Tags" max_length="40" name="u_tags" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Updated by (AH)" label="Updated by (AH)" max_length="40" name="u_updated_by__ah_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Tags (BC)" label="Tags (BC)" max_length="40" name="u_tags__bc_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Row (AT)" label="Row (AT)" max_length="40" name="u_row__at_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=source" label="source" max_length="132" name="u_source" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=managedBy" label="managedBy" max_length="40" name="u_managedby" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Updates (BS)" label="Updates (BS)" max_length="40" name="u_updates__bs_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Updated (AG)" label="Updated (AG)" max_length="40" name="u_updated__ag_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=State (V)" label="State (V)" max_length="40" name="u_state__v_" type="string"/>
+        <element attributes="import_attribute_name=Updates" label="Updates" max_length="40" name="u_updates" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Template Import Log" label="Template Import Log" max_length="40" name="u_template_import_log" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=uSNChanged" label="uSNChanged" max_length="40" name="u_usnchanged" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=name" label="name" max_length="49" name="u_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=State" label="State" max_length="40" name="u_state" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=mail" label="mail" max_length="40" name="u_mail" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Comment (T)" label="Comment (T)" max_length="40" name="u_comment__t_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Updated (BO)" label="Updated (BO)" max_length="40" name="u_updated__bo_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Import set run (AG)" label="Import set run (AG)" max_length="40" name="u_import_set_run__ag_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Row (T)" label="Row (T)" max_length="40" name="u_row__t_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Created by" label="Created by" max_length="40" name="u_created_by" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Error" label="Error" max_length="112" name="u_error" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Target record (Y)" label="Target record (Y)" max_length="40" name="u_target_record__y_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=description" label="description" max_length="126" name="u_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Type (BM)" label="Type (BM)" max_length="40" name="u_type__bm_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=objectGUID" label="objectGUID" max_length="40" name="u_objectguid" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Target record" label="Target record" max_length="112" name="u_target_record" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Created (N)" label="Created (N)" max_length="40" name="u_created__n_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Set" label="Set" max_length="40" name="u_set" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Type (AF)" label="Type (AF)" max_length="40" name="u_type__af_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=dSCorePropagationData" label="dSCorePropagationData" max_length="89" name="u_dscorepropagationdata" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Comment (BF)" label="Comment (BF)" max_length="40" name="u_comment__bf_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Type" label="Type" max_length="40" name="u_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=objectCategory" label="objectCategory" max_length="58" name="u_objectcategory" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Set (U)" label="Set (U)" max_length="40" name="u_set__u_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Set (AX)" label="Set (AX)" max_length="40" name="u_set__ax_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=uSNCreated" label="uSNCreated" max_length="40" name="u_usncreated" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=cn" label="cn" max_length="49" name="u_cn" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Updated by (BQ)" label="Updated by (BQ)" max_length="40" name="u_updated_by__bq_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=whenCreated" label="whenCreated" max_length="40" name="u_whencreated" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=dn" label="dn" max_length="127" name="u_dn" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Error (Q)" label="Error (Q)" max_length="40" name="u_error__q_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=info" label="info" max_length="40" name="u_info" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Transform Map (BK)" label="Transform Map (BK)" max_length="40" name="u_transform_map__bk_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Template Import Log (AB)" label="Template Import Log (AB)" max_length="40" name="u_template_import_log__ab_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Created by (X)" label="Created by (X)" max_length="40" name="u_created_by__x_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Import set run" label="Import set run" max_length="40" name="u_import_set_run" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Target table" label="Target table" max_length="40" name="u_target_table" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=whenChanged" label="whenChanged" max_length="40" name="u_whenchanged" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=objectClass" label="objectClass" max_length="40" name="u_objectclass" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=sAMAccountName" label="sAMAccountName" max_length="49" name="u_samaccountname" type="string"/>
+        <element attributes="import_attribute_name=Updated" label="Updated" max_length="40" name="u_updated" type="float"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Updates (AJ)" label="Updates (AJ)" max_length="40" name="u_updates__aj_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Created by (P)" label="Created by (P)" max_length="40" name="u_created_by__p_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=groupType" label="groupType" max_length="40" name="u_grouptype" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Target table (BG)" label="Target table (BG)" max_length="40" name="u_target_table__bg_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=State (BA)" label="State (BA)" max_length="40" name="u_state__ba_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Comment" label="Comment" max_length="40" name="u_comment" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Sys ID" label="Sys ID" max_length="40" name="u_sys_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Created (V)" label="Created (V)" max_length="40" name="u_created__v_" type="string"/>
+        <element attributes="import_attribute_name=Row" label="Row" max_length="40" name="u_row" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Error (AD)" label="Error (AD)" max_length="40" name="u_error__ad_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Tags (X)" label="Tags (X)" max_length="40" name="u_tags__x_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=memberOf" label="memberOf" max_length="40" name="u_memberof" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Target record (BE)" label="Target record (BE)" max_length="40" name="u_target_record__be_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Target table (Z)" label="Target table (Z)" max_length="40" name="u_target_table__z_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=objectSid" label="objectSid" max_length="40" name="u_objectsid" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=distinguishedName" label="distinguishedName" max_length="127" name="u_distinguishedname" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Import set run (S)" label="Import set run (S)" max_length="40" name="u_import_set_run__s_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Transform Map" label="Transform Map" max_length="40" name="u_transform_map" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=instanceType" label="instanceType" max_length="40" name="u_instancetype" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=sAMAccountType" label="sAMAccountType" max_length="40" name="u_samaccounttype" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Updated by" label="Updated by" max_length="40" name="u_updated_by" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Created" label="Created" max_length="40" name="u_created" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=member" label="member" max_length="32003" name="u_member" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Template Import Log (BI)" label="Template Import Log (BI)" max_length="40" name="u_template_import_log__bi_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Transform Map (AD)" label="Transform Map (AD)" max_length="40" name="u_transform_map__ad_" type="string"/>
+    </element>
+</database>

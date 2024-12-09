@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="AD Managed Folders">847105bec356d210d511bd73e40131ae</application>
+        <filter/>
+        <name>AD Managed Folders</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>admin</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 14:49:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c87105bec356d210d511bd73e40131b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AD Managed Folders</sys_name>
+        <sys_package display_value="AdB Data Source" source="3f7d11abc3cad210d511bd73e401319d">3f7d11abc3cad210d511bd73e401319d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AdB Data Source">3f7d11abc3cad210d511bd73e401319d</sys_scope>
+        <sys_update_name>sys_ui_module_c87105bec356d210d511bd73e40131b1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 14:49:19</sys_updated_on>
+        <table>u_cmdb_ci_managed_folders</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AdB Data Source">3f7d11abc3cad210d511bd73e401319d</application>
+        <file_path/>
+        <instance_id>a1f2b85cdbfa711039639027c59619b6</instance_id>
+        <instance_name>dev223868</instance_name>
+        <name>sys_ui_module_c87105bec356d210d511bd73e40131b1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="AD Managed Folders">847105bec356d210d511bd73e40131ae</application><filter/><name>AD Managed Folders</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>admin</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-09 14:49:19</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>c87105bec356d210d511bd73e40131b1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>AD Managed Folders</sys_name><sys_package display_value="AdB Data Source" source="3f7d11abc3cad210d511bd73e401319d">3f7d11abc3cad210d511bd73e401319d</sys_package><sys_policy/><sys_scope display_value="AdB Data Source">3f7d11abc3cad210d511bd73e401319d</sys_scope><sys_update_name>sys_ui_module_c87105bec356d210d511bd73e40131b1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-09 14:49:19</sys_updated_on><table>u_cmdb_ci_managed_folders</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>1707021649</payload_hash>
+        <record_name>AD Managed Folders</record_name>
+        <reverted_from/>
+        <source>67d6c63ec3861210d511bd73e4013139</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 14:49:19</sys_created_on>
+        <sys_id>8c7105bec356d210d511bd73e40131b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>193abe56a1d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 14:49:19</sys_updated_on>
+        <type>Module</type>
+        <update_guid>407105be5856d210d392bc17b0d687b4</update_guid>
+        <update_guid_history>407105be5856d210d392bc17b0d687b4:1707021649</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 15:25:47</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>369b86ae1a8e4f7eabb87d2e54f3e284</sys_id>
+        <sys_metadata>c87105bec356d210d511bd73e40131b1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AD Managed Folders</sys_name>
+        <sys_package display_value="AdB Data Source" source="3f7d11abc3cad210d511bd73e401319d">3f7d11abc3cad210d511bd73e401319d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="AdB Data Source">3f7d11abc3cad210d511bd73e401319d</sys_scope>
+        <sys_scope_delete display_value="">147bf69f08ce462681d503e1ae23e6d1</sys_scope_delete>
+        <sys_update_name>sys_ui_module_c87105bec356d210d511bd73e40131b1</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_c87105bec356d210d511bd73e40131b1">8c7105bec356d210d511bd73e40131b4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 15:25:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

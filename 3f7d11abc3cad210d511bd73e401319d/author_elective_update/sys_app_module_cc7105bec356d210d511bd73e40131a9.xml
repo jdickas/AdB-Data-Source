@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="AD Managed Folders">007105bec356d210d511bd73e40131a5</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>AD Managed Folders</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>u_cmdb_ci_managed_folders</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles>admin</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 14:49:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cc7105bec356d210d511bd73e40131a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AD Managed Folders</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AdB Data Source" source="3f7d11abc3cad210d511bd73e401319d">3f7d11abc3cad210d511bd73e401319d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AdB Data Source">3f7d11abc3cad210d511bd73e401319d</sys_scope>
+        <sys_update_name>sys_app_module_cc7105bec356d210d511bd73e40131a9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 14:49:18</sys_updated_on>
+        <timeline_page/>
+        <title>AD Managed Folders</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AdB Data Source">3f7d11abc3cad210d511bd73e401319d</application>
+        <file_path/>
+        <instance_id>a1f2b85cdbfa711039639027c59619b6</instance_id>
+        <instance_name>dev223868</instance_name>
+        <name>sys_app_module_cc7105bec356d210d511bd73e40131a9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="AD Managed Folders">007105bec356d210d511bd73e40131a5</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>AD Managed Folders</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>u_cmdb_ci_managed_folders</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles>admin</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-09 14:49:18</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>cc7105bec356d210d511bd73e40131a9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>AD Managed Folders</sys_name><sys_overrides/><sys_package display_value="AdB Data Source" source="3f7d11abc3cad210d511bd73e401319d">3f7d11abc3cad210d511bd73e401319d</sys_package><sys_policy/><sys_scope display_value="AdB Data Source">3f7d11abc3cad210d511bd73e401319d</sys_scope><sys_update_name>sys_app_module_cc7105bec356d210d511bd73e40131a9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-09 14:49:18</sys_updated_on><timeline_page/><title>AD Managed Folders</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-548081922</payload_hash>
+        <record_name>AD Managed Folders</record_name>
+        <reverted_from/>
+        <source>67d6c63ec3861210d511bd73e4013139</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 14:49:18</sys_created_on>
+        <sys_id>c87105bec356d210d511bd73e40131ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>193abe569890000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 14:49:18</sys_updated_on>
+        <type>Module</type>
+        <update_guid>8c7105be8956d2101f85a70b18000eac</update_guid>
+        <update_guid_history>8c7105be8956d2101f85a70b18000eac:-548081922</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="AD Managed Folders">05c9017ac396d210d511bd73e4013191</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 15:25:42</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>73c3c9bbf19c417b954c9646f776ed09</sys_id>
+        <sys_metadata>cc7105bec356d210d511bd73e40131a9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AD Managed Folders</sys_name>
+        <sys_package display_value="AdB Data Source" source="3f7d11abc3cad210d511bd73e401319d">3f7d11abc3cad210d511bd73e401319d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="AdB Data Source">3f7d11abc3cad210d511bd73e401319d</sys_scope>
+        <sys_scope_delete display_value="">147bf69f08ce462681d503e1ae23e6d1</sys_scope_delete>
+        <sys_update_name>sys_app_module_cc7105bec356d210d511bd73e40131a9</sys_update_name>
+        <sys_update_version display_value="sys_app_module_cc7105bec356d210d511bd73e40131a9">c87105bec356d210d511bd73e40131ad</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 15:25:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
