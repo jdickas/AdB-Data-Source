@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="AD Groups">504b60b2c316d210d511bd73e40131ae</application>
+        <filter/>
+        <name>AD Groups</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>admin</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-09 13:12:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d84ba0b2c316d210d511bd73e40131f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AD Groups</sys_name>
+        <sys_package display_value="AdB Data Source" source="3f7d11abc3cad210d511bd73e401319d">3f7d11abc3cad210d511bd73e401319d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AdB Data Source">3f7d11abc3cad210d511bd73e401319d</sys_scope>
+        <sys_update_name>sys_ui_module_d84ba0b2c316d210d511bd73e40131f4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 13:12:23</sys_updated_on>
+        <table>u_cmdb_ci_ad_group</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+</record_update>

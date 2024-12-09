@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="2ecfa43ac316d210d511bd73e40131af" extends="sys_import_set_row" label="AD_PROD/ADGroups" max_length="40" name="u_ldap_groups" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=member" label="member" max_length="40" name="u_member" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=info" label="info" max_length="40" name="u_info" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=instanceType" label="instanceType" max_length="40" name="u_instancetype" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Type" label="Type" max_length="40" name="u_type" type="string"/>
+        <element attributes="import_attribute_name=Updates" label="Updates" max_length="40" name="u_updates" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Target table" label="Target table" max_length="40" name="u_target_table" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=sAMAccountName" label="sAMAccountName" max_length="40" name="u_samaccountname" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Sys ID" label="Sys ID" max_length="40" name="u_sys_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=objectCategory" label="objectCategory" max_length="40" name="u_objectcategory" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Import set run" label="Import set run" max_length="40" name="u_import_set_run" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=memberOf" label="memberOf" max_length="40" name="u_memberof" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=extensionAttribute2" label="extensionAttribute2" max_length="40" name="u_extensionattribute2" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=extensionAttribute5" label="extensionAttribute5" max_length="40" name="u_extensionattribute5" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=objectSid" label="objectSid" max_length="40" name="u_objectsid" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=dn" label="dn" max_length="40" name="u_dn" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Transform Map" label="Transform Map" max_length="40" name="u_transform_map" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=whenCreated" label="whenCreated" max_length="40" name="u_whencreated" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=objectClass" label="objectClass" max_length="40" name="u_objectclass" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=sAMAccountType" label="sAMAccountType" max_length="40" name="u_samaccounttype" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=description" label="description" max_length="40" name="u_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=displayName" label="displayName" max_length="40" name="u_displayname" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=source" label="source" max_length="40" name="u_source" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Created by" label="Created by" max_length="40" name="u_created_by" type="string"/>
+        <element attributes="import_attribute_name=Updated" label="Updated" max_length="40" name="u_updated" type="float"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Error" label="Error" max_length="40" name="u_error" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=name" label="name" max_length="40" name="u_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=distinguishedName" label="distinguishedName" max_length="40" name="u_distinguishedname" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=objectGUID" label="objectGUID" max_length="40" name="u_objectguid" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Comment" label="Comment" max_length="40" name="u_comment" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Template Import Log" label="Template Import Log" max_length="40" name="u_template_import_log" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=State" label="State" max_length="40" name="u_state" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=groupType" label="groupType" max_length="40" name="u_grouptype" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=dSCorePropagationData" label="dSCorePropagationData" max_length="40" name="u_dscorepropagationdata" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Tags" label="Tags" max_length="40" name="u_tags" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Target record" label="Target record" max_length="51" name="u_target_record" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=whenChanged" label="whenChanged" max_length="40" name="u_whenchanged" type="string"/>
+        <element attributes="import_attribute_name=Created" label="Created" max_length="40" name="u_created" type="float"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=uSNCreated" label="uSNCreated" max_length="40" name="u_usncreated" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=uSNChanged" label="uSNChanged" max_length="40" name="u_usnchanged" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=cn" label="cn" max_length="40" name="u_cn" type="string"/>
+        <element attributes="import_attribute_name=Row" label="Row" max_length="40" name="u_row" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Updated by" label="Updated by" max_length="40" name="u_updated_by" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Set" label="Set" max_length="40" name="u_set" type="string"/>
+    </element>
+</database>

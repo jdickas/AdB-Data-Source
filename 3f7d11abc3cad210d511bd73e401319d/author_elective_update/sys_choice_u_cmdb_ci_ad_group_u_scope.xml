@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_scope" table="u_cmdb_ci_ad_group" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_scope</element>
+            <name>u_cmdb_ci_ad_group</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-09 13:17:49</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_scope</sys_name>
+            <sys_package display_value="AdB Data Source" source="3f7d11abc3cad210d511bd73e401319d">3f7d11abc3cad210d511bd73e401319d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="AdB Data Source">3f7d11abc3cad210d511bd73e401319d</sys_scope>
+            <sys_update_name>sys_choice_u_cmdb_ci_ad_group_u_scope</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-09 13:17:49</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_scope</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Domain Local Security</label>
+            <language>en</language>
+            <name>u_cmdb_ci_ad_group</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-09 13:17:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-09 13:18:37</sys_updated_on>
+            <value>domain_local_security</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_scope</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>undefined</label>
+            <language>en</language>
+            <name>u_cmdb_ci_ad_group</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-09 13:43:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-09 13:43:22</sys_updated_on>
+            <value>undefined</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_scope</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Global Security</label>
+            <language>en</language>
+            <name>u_cmdb_ci_ad_group</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-09 13:19:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-09 13:19:29</sys_updated_on>
+            <value>global_security</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

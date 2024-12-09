@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="310b6c72c316d210d511bd73e401317c" extends="cmdb_ci" label="AD Groups" max_length="40" name="u_cmdb_ci_ad_group" type="collection">
+        <element label="AD Domain" max_length="400" name="u_ad_domain" type="string"/>
+        <element label="Unique ID" max_length="400" name="u_number" type="string"/>
+        <element choice="3" label="Scope" max_length="40" name="u_scope" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Domain Local Security" sequence="0" value="domain_local_security"/>
+                <element inactive_on_update="false" label="undefined" sequence="0" value="undefined"/>
+                <element inactive_on_update="false" label="Global Security" sequence="1" value="global_security"/>
+            </choice>
+        </element>
+        <element choice="3" default="security" label="Type" max_length="40" name="u_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Security" sequence="0" value="security"/>
+            </choice>
+        </element>
+        <element label="Data Source" max_length="40" name="u_data_source" type="string"/>
+        <element label="Last Modified" max_length="40" name="u_last_modified" type="glide_date_time"/>
+        <element label="Short Description" max_length="1000" name="u_short_description" type="string"/>
+    </element>
+</database>
