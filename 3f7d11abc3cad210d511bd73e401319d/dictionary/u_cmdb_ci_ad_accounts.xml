@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="867f4c72c352d210d511bd73e401313b" extends="cmdb_ci" label="AD Accounts" max_length="40" name="u_cmdb_ci_ad_accounts" type="collection">
+        <element choice="3" default="personal" label="Type" max_length="40" name="u_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Personal" sequence="1" value="personal"/>
+            </choice>
+        </element>
+        <element label="Data Source" max_length="40" name="u_data_source" type="string"/>
+        <element label="AD Domain" max_length="40" name="u_ad_domain" type="string"/>
+        <element label="State" max_length="40" name="u_state" type="string"/>
+        <element label="Customer Specific Data 3" max_length="400" name="u_customer_specific_data_3" type="string"/>
+        <element label="Customer Specific Data 1" max_length="400" name="u_customer_specific_data_1" type="string"/>
+        <element label="Customer Specific Data 2" max_length="400" name="u_customer_specific_data_2" type="string"/>
+        <element label="Last name of Account" max_length="100" name="u_last_name_of_account" type="string"/>
+        <element label="First name of Account" max_length="100" name="u_first_name_of_account" type="string"/>
+        <element label="Email adress" max_length="100" name="u_email_adress" type="string"/>
+        <element label="Expiration Date" max_length="40" name="u_expiration_date" type="glide_date_time"/>
+        <element label="Last Modified" max_length="40" name="u_last_modified" type="glide_date_time"/>
+        <element label="External Reference Number" max_length="100" name="u_external_reference_number" type="string"/>
+        <element label="Inactive" max_length="40" name="u_delete" type="boolean"/>
+    </element>
+</database>
