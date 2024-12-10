@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="u_cmdb_ci_ad_accounts" version="2" view="">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="AD Accounts - Default view" name="u_cmdb_ci_ad_accounts" related_list="NULL" sys_domain="global" view="Default view">87fd4ac7c39a1210d511bd73e40131bd</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>REL:49f2ce4e73001010a64ec3ed8ff6a7de</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-10 15:02:14</sys_created_on>
+            <sys_id>d3fd4ac7c39a1210d511bd73e40131bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-10 15:02:14</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="AD Accounts - Default view" name="u_cmdb_ci_ad_accounts" related_list="NULL" sys_domain="global" view="Default view">87fd4ac7c39a1210d511bd73e40131bd</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>u_managed_folder_rights_m2m.u_account</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-10 15:02:14</sys_created_on>
+            <sys_id>dbfd4ac7c39a1210d511bd73e40131bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-10 15:02:14</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>AD Accounts - Default view</calculated_name>
+            <filter/>
+            <name>u_cmdb_ci_ad_accounts</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-10 15:02:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>87fd4ac7c39a1210d511bd73e40131bd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>AD Accounts - Default view</sys_name>
+            <sys_package display_value="AdB Data Source" source="3f7d11abc3cad210d511bd73e401319d">3f7d11abc3cad210d511bd73e401319d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="AdB Data Source">3f7d11abc3cad210d511bd73e401319d</sys_scope>
+            <sys_update_name>sys_ui_related_u_cmdb_ci_ad_accounts_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-10 15:02:14</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>
