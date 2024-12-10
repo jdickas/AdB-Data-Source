@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>global.LDAPManagedFoldersUtils</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>LDAPManagedFoldersUtils</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var LDAPManagedFoldersUtils = Class.create();
+LDAPManagedFoldersUtils.prototype = {
+    initialize: function() {},
+
+    getCN: function(expression) {
+
+        var expr = expression;
+        //gs.info('Autobahn addMembers CN expression = ' + expr);
+
+        if (JSUtil.notNil(expression)) {
+            var DNParts = expression.split(',');
+            var CN = DNParts[0];
+            return CN;
+
+        } else {
+            return "";
+        }
+
+    },
+
+    getADRecord: function(table, CNName) {
+        gs.info('Table: ' + table + ' CN: ' + CNName);
+
+        var adGR = new GlideRecord(table);
+        adGR.addEncodedQuery('nameSTARTSWITH' + CNName);
+        adGR.query();
+
+        if (adGR.next()) {
+            var adSysId = adGR.sys_id;
+            return adSysId;
+        } else {
+            return 'no Sys_ID';
+        }
+
+    },
+
+    getM2MRecord: function(table, mfSysId, groupSysId, accountSysId) {
+        //gs.info('Table: ' + table + ' MF: ' + mfSysId + ' Group: ' + groupSysId + ' Account: ' + accountSysId);
+
+        var m2mGR = new GlideRecord(table);
+        m2mGR.addEncodedQuery('u_account=' + accountSysId + '^u_group=' + groupSysId + '^u_managed_folder=' + mfSysId);
+        m2mGR.query();
+
+        if (m2mGR.next()) {
+            var m2mSysId = m2mGR.sys_id;
+            //gs.info('M2M Record vorhanden - SysId: ' + m2mGR.sys_id);
+            return m2mSysId;
+        } else {
+            return 'no Sys_ID';
+        }
+
+    },
+
+    getNumberOfM2MRecordsForMFandGroup: function(adMFSysId, adGroupSysId) {
+        var i = 0;
+
+        var m2mGR = new GlideRecord('u_managed_folder_rights_m2m');
+        m2mGR.addEncodedQuery('u_managed_folder=' + adMFSysId + '^u_group=' + adGroupSysId);
+
+        m2mGR.query();
+
+        while (m2mGR.next()) {
+            //gs.info('Eintrag[' + i + '] = ' + m2mGR.u_managed_folder.name);
+            //m2mGR.deleteRecord();
+            i++;
+        }
+
+		return i;
+
+    },
+
+    getArrayOfM2MAccountNamesForMFandGroup: function(adMFSysId, adGroupSysId) {
+        
+		var CNArray = [];
+
+        var m2mGR = new GlideRecord('u_managed_folder_rights_m2m');
+        m2mGR.addEncodedQuery('u_managed_folder=' + adMFSysId + '^u_group=' + adGroupSysId);
+
+        m2mGR.query();
+
+        while (m2mGR.next()) {
+            //gs.info('EintragMF[' + i + '] = ' + m2mGR.u_managed_folder.name);
+			//gs.info('EintragCN[' + i + '] = ' + m2mGR.u_account.name);
+            //m2mGR.deleteRecord();
+			var CNentry = m2mGR.u_account.name.toString();
+			CNArray.push(CNentry);
+            
+        }
+
+		return CNArray;
+
+    },	
+
+    removeLast2Chars: function(expression) {
+        //gs.info('Expression: ' + expression);
+
+        var testString = expression;
+        var pattern = /..$/; // Regex, das die letzten 2 Zeichen erfasst
+        //
+        // Entfernen der letzten 2 Zeichen
+        var result = testString.replace(pattern, "");
+        //
+        return result;
+
+    },
+
+    getLastChar: function(expression) {
+        //gs.info('Expression: ' + expression);
+
+        var testString = expression;
+        var pattern = /.$/; // Regex, das die letzten 2 Zeichen erfasst
+        //
+        // Entfernen der letzten 2 Zeichen
+        var result = testString.match(pattern);
+        //
+        return result;
+
+    },
+
+    type: 'LDAPManagedFoldersUtils'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-10 10:25:51</sys_created_on>
+        <sys_id>b4ae494fc3d21210d511bd73e40131b8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>LDAPManagedFoldersUtils</sys_name>
+        <sys_package display_value="AdB Data Source" source="3f7d11abc3cad210d511bd73e401319d">3f7d11abc3cad210d511bd73e401319d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AdB Data Source">3f7d11abc3cad210d511bd73e401319d</sys_scope>
+        <sys_update_name>sys_script_include_b4ae494fc3d21210d511bd73e40131b8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-10 13:08:32</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>b4ae494fc3d21210d511bd73e40131b8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-10 10:25:50</sys_created_on>
+        <sys_id>9abe0d8bc3d21210d511bd73e4013152</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-10 10:25:50</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

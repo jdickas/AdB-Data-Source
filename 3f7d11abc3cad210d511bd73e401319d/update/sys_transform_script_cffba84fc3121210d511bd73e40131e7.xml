@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_script">
+    <sys_transform_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <map display_value="AD_Groups">2a49600bc3121210d511bd73e401313a</map>
+        <order>90</order>
+        <script><![CDATA[(function runTransformScript(source, map, log, target /*undefined onStart*/ ) {
+
+    // Add your code here
+
+    //gs.info('Autobahn addMembers CN = ' + source.u_cn);
+    var mfObj = new LDAPManagedFoldersUtils();
+    var mfCustSpec3 = mfObj.removeLast2Chars(source.u_cn);
+
+    var adGroupsSysId = target.sys_id; // SysID des AD Group Target Records
+    var adMFSysId = '';
+
+    //gs.info('Autobahn addMembers CN group target sys_id = ' + adGroupsSysId);
+
+    var adMFGR = new GlideRecord('u_cmdb_ci_managed_folder');
+    adMFGR.addEncodedQuery('u_customer_specific_data_3=' + mfCustSpec3);
+    adMFGR.query();
+
+    if (adMFGR.next()) {
+        //gs.info('Autobahn addMembers CN MF target sys_id = ' + adMFGR.sys_id);
+        adMFSysId = adMFGR.sys_id; // SysID des AD Managed Folder Target Records
+    }
+
+    // Einlesen der Members
+
+    var arrMembersNewBase = source.u_member.split('^');
+
+    var arrMemberGroupsNew = [];
+    var arrMembersNew = [];
+    for (var i = 0; i < arrMembersNewBase.length; i++) {
+        var isGroup = arrMembersNewBase[i].includes("OU=Groups");
+        if (isGroup == true) {
+
+            var CN = mfObj.getCN(arrMembersNewBase[i]);
+            arrMemberGroupsNew.push(CN.substring(3));
+            gs.info('Autobahn addMembers Groups ' + arrMembersNewBase[i] + ' | ' + CN);
+        } else {
+
+            var CN = mfObj.getCN(arrMembersNewBase[i]);
+            var CNValue = CN.substring(3).toString();
+            arrMembersNew.push(CNValue);
+            gs.info('Autobahn addMembers Users Test ' + mfCustSpec3 + ' | ' + arrMembersNewBase[i] + ' | ' + CN);
+        }
+
+    }
+
+    arrMemberGroupsNew.sort();
+    arrMembersNew.sort();
+
+    // finde gestrichene Einträge
+
+    var numRecords = mfObj.getNumberOfM2MRecordsForMFandGroup(adMFSysId, adGroupsSysId);
+
+	gs.info('Autobahn addMembers getNumbersOfM2MRecordsForMFandGroup : ' + adMFSysId + ' || ' + adGroupsSysId + ' || ' + numRecords);
+
+    if (numRecords != arrMembersNew.length) {
+        gs.info('Autobahn addMembers CN M2M Records nicht identisch zu LDAP ' + numRecords + ' | LDAP |  ' + arrMembersNew.length);
+    }
+
+    var arrMembersOld = [];
+
+    if (numRecords > 0) {
+       
+        arrMembersOld = mfObj.getArrayOfM2MAccountNamesForMFandGroup(adMFSysId, adGroupsSysId);
+
+    }
+
+
+    var uniqueToArrOld = arrMembersOld.filter(function(item) {
+        return !arrMembersNew.includes(item);
+    });
+
+    for (i = 0; i < uniqueToArrOld.length; i++) {
+        gs.info('Autobahn removeMembers MF M2M ' + mfCustSpec3 + ' Diff CN[' + i + '] = ' + uniqueToArrOld[i]);
+        var query = 'u_account_role!=group^u_account.name=' + uniqueToArrOld[i] + '^u_group=' + adGroupsSysId;
+        //gs.info('Autobahn removeMembers MF M2M query ' + query);
+        var delM2MGR = new GlideRecord('u_managed_folder_rights_m2m');
+        //delM2MGR.addEncodedQuery('u_account_role!=group^u_account.name=' + uniqueToArrOld[i] + '^u_group=' + adGroupsSysId);
+        delM2MGR.addEncodedQuery(query);
+        delM2MGR.query();
+
+        if (delM2MGR.next()) {
+            //gs.info('Autobahn removeMembers MF M2M sys_id' + delM2MGR.sys_id);
+            delM2MGR.deleteRecord();
+        }
+    }
+
+
+    // Ende finde gestrichene Einträge
+
+
+    for (j = 0; j < arrMemberGroupsNew.length; j++) {
+        if (arrMemberGroupsNew[j].substring(0, 4) != 'APPL') {
+
+            var groupsSysId = mfObj.getADRecord('u_cmdb_ci_ad_group', arrMemberGroupsNew[j]);
+            // SysId der OM Gruppe in der Tabelle AD Groups
+            //gs.info('Autobahn addMembers Groups: ' + arrMemberGroupsNew[j] + ' Sys_id ' + groupsSysId);
+
+            // Existiert bereits ein M2M Eintrag?
+            var userSysId = '';
+
+            var m2mSysId = mfObj.getM2MRecord('u_managed_folder_rights_m2m', adMFSysId, groupsSysId, userSysId);
+            //gs.info('Autobahn addMembers Groups M2M Sys_id: ' + m2mSysId);
+
+            // wenn nicht, dann Record anlegen
+            if (m2mSysId == 'no Sys_ID' && groupsSysId != 'no Sys_ID') {
+                var now = new GlideDateTime();
+                var accRole = 'Group';
+                var newM2MGR = new GlideRecord('u_managed_folder_rights_m2m')
+                newM2MGR.u_managed_folder = adMFSysId;
+                newM2MGR.u_group = groupsSysId;
+                newM2MGR.u_account = userSysId;
+                newM2MGR.u_last_modified = now;
+                newM2MGR.u_account_role = accRole;
+                newM2MGR.u_company = '765664fac3d2d210d511bd73e40131dd';
+                newM2MGR.insert();
+            }
+
+
+
+        } else {
+            gs.info('Autobahn addMembers Groups (not imported): ' + arrMemberGroupsNew[j]);
+        }
+    }
+
+    for (j = 0; j < arrMembersNew.length; j++) {
+        gs.info('Autobahn addMembers Users: ' + arrMembersNew[j]);
+
+        var userSysId = mfObj.getADRecord('u_cmdb_ci_ad_accounts', arrMembersNew[j]);
+        // SysID des Users in der Tabelle AD Account
+        gs.info('Autobahn addMembers Users: ' + arrMembersNew[j] + ' Sys_id ' + userSysId);
+
+        // Existiert bereits ein M2M Eintrag?
+
+        gs.info('Autobahn addMembers Users M2M Sys_id: ' + m2mSysId);
+        var m2mSysId = mfObj.getM2MRecord('u_managed_folder_rights_m2m', adMFSysId, adGroupsSysId, userSysId);
+        gs.info('Autobahn addMembers Users M2M Sys_id: ' + m2mSysId);		
+
+        // wenn nicht, dann Record anlegen
+        if (m2mSysId == 'no Sys_ID' && userSysId != 'no Sys_ID') {
+			gs.info('Autobahn addMembers add Member: ' + userSysId);
+            var now = new GlideDateTime();
+			var lastCh = mfObj.getLastChar(source.u_cn);
+            var accRole = 'User';
+            var newM2MGR = new GlideRecord('u_managed_folder_rights_m2m')
+            newM2MGR.u_managed_folder = adMFSysId;
+            newM2MGR.u_group = adGroupsSysId;
+            newM2MGR.u_account = userSysId;
+            newM2MGR.u_last_modified = now;
+            if (lastCh == 'C') {
+                newM2MGR.u_access_type = 'Read / Write';
+            } else if (lastCh == 'R') {
+                newM2MGR.u_access_type = 'Read';
+            }
+            newM2MGR.u_account_role = accRole;
+            newM2MGR.u_company = '765664fac3d2d210d511bd73e40131dd';
+            newM2MGR.insert();
+        }
+
+    }
+
+})(source, map, log, target);]]></script>
+        <sys_class_name>sys_transform_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-10 07:54:22</sys_created_on>
+        <sys_id>cffba84fc3121210d511bd73e40131e7</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>onAfter</sys_name>
+        <sys_package display_value="AdB Data Source" source="3f7d11abc3cad210d511bd73e401319d">3f7d11abc3cad210d511bd73e401319d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AdB Data Source">3f7d11abc3cad210d511bd73e401319d</sys_scope>
+        <sys_update_name>sys_transform_script_cffba84fc3121210d511bd73e40131e7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-10 13:22:56</sys_updated_on>
+        <when>onAfter</when>
+    </sys_transform_script>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>cffba84fc3121210d511bd73e40131e7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-10 07:54:22</sys_created_on>
+        <sys_id>6b0c208fc3121210d511bd73e4013165</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-10 07:54:22</sys_updated_on>
+        <table>sys_transform_script</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>
