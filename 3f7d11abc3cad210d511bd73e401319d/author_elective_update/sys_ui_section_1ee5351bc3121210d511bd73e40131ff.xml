@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="New Section" section_id="1ee5351bc3121210d511bd73e40131ff" sys_domain="global" table="u_cmdb_ci_ad_group" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>company</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-11 07:55:32</sys_created_on>
+            <sys_id>a6e5751bc3121210d511bd73e4013152</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="u_cmdb_ci_ad_group" sys_domain="global" view="Default view">1ee5351bc3121210d511bd73e40131ff</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-11 07:55:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_ad_domain</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-11 07:55:32</sys_created_on>
+            <sys_id>2ee5751bc3121210d511bd73e4013152</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="u_cmdb_ci_ad_group" sys_domain="global" view="Default view">1ee5351bc3121210d511bd73e40131ff</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-11 07:55:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>correlation_id</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-11 07:55:32</sys_created_on>
+            <sys_id>a2e5751bc3121210d511bd73e4013153</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="u_cmdb_ci_ad_group" sys_domain="global" view="Default view">1ee5351bc3121210d511bd73e40131ff</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-11 07:55:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_data_source</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-11 07:55:32</sys_created_on>
+            <sys_id>2ae5751bc3121210d511bd73e4013153</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="u_cmdb_ci_ad_group" sys_domain="global" view="Default view">1ee5351bc3121210d511bd73e40131ff</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-11 07:55:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-11 07:55:32</sys_created_on>
+            <sys_id>aee5751bc3121210d511bd73e4013153</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="u_cmdb_ci_ad_group" sys_domain="global" view="Default view">1ee5351bc3121210d511bd73e40131ff</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-11 07:55:32</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_type</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-11 07:55:32</sys_created_on>
+            <sys_id>26e5751bc3121210d511bd73e4013154</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="u_cmdb_ci_ad_group" sys_domain="global" view="Default view">1ee5351bc3121210d511bd73e40131ff</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-11 07:55:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_scope</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-11 07:55:32</sys_created_on>
+            <sys_id>aae5751bc3121210d511bd73e4013154</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="u_cmdb_ci_ad_group" sys_domain="global" view="Default view">1ee5351bc3121210d511bd73e40131ff</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-11 07:55:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>category</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-11 07:55:32</sys_created_on>
+            <sys_id>22e5751bc3121210d511bd73e4013155</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="u_cmdb_ci_ad_group" sys_domain="global" view="Default view">1ee5351bc3121210d511bd73e40131ff</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-11 07:55:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_last_modified</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-11 07:55:32</sys_created_on>
+            <sys_id>a6e5751bc3121210d511bd73e4013155</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="u_cmdb_ci_ad_group" sys_domain="global" view="Default view">1ee5351bc3121210d511bd73e40131ff</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-11 07:55:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>New Section</caption>
+            <header>false</header>
+            <name>u_cmdb_ci_ad_group</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-11 07:55:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1ee5351bc3121210d511bd73e40131ff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_cmdb_ci_ad_group</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="AdB Data Source" source="3f7d11abc3cad210d511bd73e401319d">3f7d11abc3cad210d511bd73e401319d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="AdB Data Source">3f7d11abc3cad210d511bd73e401319d</sys_scope>
+            <sys_update_name>sys_ui_section_1ee5351bc3121210d511bd73e40131ff</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-11 07:55:31</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AdB Data Source">3f7d11abc3cad210d511bd73e401319d</application>
+        <file_path/>
+        <instance_id>a1f2b85cdbfa711039639027c59619b6</instance_id>
+        <instance_name>dev223868</instance_name>
+        <name>sys_ui_section_1ee5351bc3121210d511bd73e40131ff</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="New Section" section_id="1ee5351bc3121210d511bd73e40131ff" sys_domain="global" table="u_cmdb_ci_ad_group" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>company</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-11 07:55:32</sys_created_on><sys_id>a6e5751bc3121210d511bd73e4013152</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="u_cmdb_ci_ad_group" sys_domain="global" view="Default view">1ee5351bc3121210d511bd73e40131ff</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-11 07:55:32</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_ad_domain</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-11 07:55:32</sys_created_on><sys_id>2ee5751bc3121210d511bd73e4013152</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="u_cmdb_ci_ad_group" sys_domain="global" view="Default view">1ee5351bc3121210d511bd73e40131ff</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-11 07:55:32</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>correlation_id</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-11 07:55:32</sys_created_on><sys_id>a2e5751bc3121210d511bd73e4013153</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="u_cmdb_ci_ad_group" sys_domain="global" view="Default view">1ee5351bc3121210d511bd73e40131ff</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-11 07:55:32</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_data_source</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-11 07:55:32</sys_created_on><sys_id>2ae5751bc3121210d511bd73e4013153</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="u_cmdb_ci_ad_group" sys_domain="global" view="Default view">1ee5351bc3121210d511bd73e40131ff</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-11 07:55:32</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-11 07:55:32</sys_created_on><sys_id>aee5751bc3121210d511bd73e4013153</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="u_cmdb_ci_ad_group" sys_domain="global" view="Default view">1ee5351bc3121210d511bd73e40131ff</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-11 07:55:32</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_type</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-11 07:55:32</sys_created_on><sys_id>26e5751bc3121210d511bd73e4013154</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="u_cmdb_ci_ad_group" sys_domain="global" view="Default view">1ee5351bc3121210d511bd73e40131ff</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-11 07:55:32</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_scope</element><position>6</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-11 07:55:32</sys_created_on><sys_id>aae5751bc3121210d511bd73e4013154</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="u_cmdb_ci_ad_group" sys_domain="global" view="Default view">1ee5351bc3121210d511bd73e40131ff</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-11 07:55:32</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>category</element><position>7</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-11 07:55:32</sys_created_on><sys_id>22e5751bc3121210d511bd73e4013155</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="u_cmdb_ci_ad_group" sys_domain="global" view="Default view">1ee5351bc3121210d511bd73e40131ff</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-11 07:55:32</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_last_modified</element><position>8</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-11 07:55:32</sys_created_on><sys_id>a6e5751bc3121210d511bd73e4013155</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="u_cmdb_ci_ad_group" sys_domain="global" view="Default view">1ee5351bc3121210d511bd73e40131ff</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-11 07:55:32</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>New Section</caption><header>false</header><name>u_cmdb_ci_ad_group</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-11 07:55:31</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>1ee5351bc3121210d511bd73e40131ff</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_cmdb_ci_ad_group</sys_name><sys_overrides/><sys_package display_value="AdB Data Source" source="3f7d11abc3cad210d511bd73e401319d">3f7d11abc3cad210d511bd73e401319d</sys_package><sys_policy/><sys_scope display_value="AdB Data Source">3f7d11abc3cad210d511bd73e401319d</sys_scope><sys_update_name>sys_ui_section_1ee5351bc3121210d511bd73e40131ff</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-11 07:55:31</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>1494896112</payload_hash>
+        <record_name>AD Groups</record_name>
+        <reverted_from/>
+        <source>67d6c63ec3861210d511bd73e4013139</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-11 07:55:32</sys_created_on>
+        <sys_id>6ee5751bc3121210d511bd73e4013157</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>193b4b74e460000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-11 07:55:32</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>e2e5751bfa1212100bc52ac01bc21e57</update_guid>
+        <update_guid_history>e2e5751bfa1212100bc52ac01bc21e57:1494896112</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-11 07:55:45</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>cfbd9b68455d4c5aabbd565d70b92361</sys_id>
+        <sys_metadata>1ee5351bc3121210d511bd73e40131ff</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Section</sys_name>
+        <sys_package display_value="AdB Data Source" source="3f7d11abc3cad210d511bd73e401319d">3f7d11abc3cad210d511bd73e401319d</sys_package>
+        <sys_parent display_value="AD Groups">310b6c72c316d210d511bd73e401317c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="AdB Data Source">3f7d11abc3cad210d511bd73e401319d</sys_scope>
+        <sys_scope_delete display_value="">147bf69f08ce462681d503e1ae23e6d1</sys_scope_delete>
+        <sys_update_name>sys_ui_section_1ee5351bc3121210d511bd73e40131ff</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_1ee5351bc3121210d511bd73e40131ff">6ee5751bc3121210d511bd73e4013157</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-11 07:55:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
